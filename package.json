@@ -1,0 +1,13 @@
+{
+  "name": "consthera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "starttailwind": "npx tailwindcss -i ./tailwind.css -o ./tailwind_output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
+}
