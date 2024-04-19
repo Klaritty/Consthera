@@ -24,6 +24,9 @@ Template Name: Home
 <?php include 'about.php'; ?>
 <!--Testimonios-->
 <?php include 'testimonials.php'?>
+<!--Footer-->
+<?php include 'footer.php'?>
+
 <?php wp_footer(); ?>
 </body>
 </html>
