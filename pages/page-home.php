@@ -24,6 +24,8 @@ Template Name: Home
 <?php include 'about.php'; ?>
 <!--Testimonios-->
 <?php include 'testimonials.php'?>
+<!--Reservatiom-->
+<?php include 'reservation.php'?>
 <!--Footer-->
 <?php include 'footer.php'?>
 
