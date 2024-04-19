@@ -10,7 +10,7 @@ function twentytwentyfour_child_theme_setup()
 add_action('after_setup_theme', 'twentytwentyfour_child_theme_setup');
 
 
-function klaritty_theme_suport()
+function consthera_theme_suport()
 {
     add_theme_support('custom-logo');
 }

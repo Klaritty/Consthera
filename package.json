@@ -7,7 +7,12 @@
     "starttailwind": "npx tailwindcss -i ./tailwind.css -o ./tailwind_output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
   "dependencies": {
-    "tailwind": "^4.0.0"
+    "swiper": "^11.1.0"
   }
 }

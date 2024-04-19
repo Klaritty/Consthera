@@ -8,6 +8,9 @@ Template Name: Home
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/tailwind_output.css">
+    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/FormStyles.css">
+    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/node_modules/swiper/swiper-bundle.min.css">
     <?php wp_head(); ?>
 </head>
 <body>
