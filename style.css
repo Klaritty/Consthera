@@ -8,3 +8,414 @@ Version: 1.0.0
 */
 
 /* Estilos adicionales pueden ir aquí */
+
+
+/*
+Theme Name: Twenty Twenty Four (Child)
+Theme URI: []
+Description: Tema hijo de Twenty Twenty Four
+Author: [Héctor Amador]
+Template: twentytwentyfour
+Version: 1.0.0
+*/
+
+/* Estilos adicionales pueden ir aquí */
+
+
+body {
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.fuente-title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto; /* Centra horizontalmente el contenido */
+  }
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400; /* regular */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:linear-gradient(to bottom, #808080, transparent);
+    position: fixed;
+    top: 0; 
+    width: 100vw;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 200px; 
+}
+
+.links {
+    list-style: none;
+    display: flex;
+}
+
+.span{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: black;
+    
+}
+
+.links li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.links li a:hover { 
+    color: yellow;
+}
+.links li:nth-child(4) a {
+  padding-right: 1rem;
+}
+
+.links li:nth-child(5) a {
+    background-color:  #000;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.navbar__links{
+display: flex;
+align-items: center;
+
+}
+
+.social-icons a {
+    margin-left:20px;
+    
+}
+.social-icons  {
+  
+    padding-right:3rem;
+
+}
+
+.social-icons img {
+    width: 30px; 
+}
+
+.buttons{
+    display: none;
+}
+
+.btn{
+    text-decoration: none;
+    background-color:  #ffe600;
+    color: #1d4bdd;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.header {
+    text-align: center; 
+    padding: 50px; 
+    padding-top: 10rem;
+    background-color: #1d4bdd;
+
+}
+
+.header-container {
+    max-width: 600px; 
+    width: 100%; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.header-h1 {
+    margin-top: 0; 
+    margin-bottom: 2.5rem; 
+    font-size: 44px;
+}
+
+.header-p {
+    margin-bottom: 2.5rem; 
+    font-size: 20px;
+
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #ffe600;
+    color: #1d4bdd;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.menu-button img {
+    width: 30px; 
+    height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .logo img {
+        width: 150px;
+    }
+
+    .links li {
+        margin-right: 10px;
+    }
+
+    .social-icons {
+        margin-right: 2rem;
+    }
+
+    .social-icons img {
+        width: 20px;
+    }
+
+    .navbar__links {
+        font-size: 14px;
+    }
+
+    .menu-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .links,
+    .social-icons {
+        display: none;
+    }
+
+    .navbar__links {
+        justify-content: flex-end;
+    }
+
+    .menu-button {
+        display: block;
+        margin-right: 20px;
+    }
+}
+
+/* Nueva regla para asegurar que el botón de menú no aparezca nuevamente por encima de 770px */
+@media screen and (min-width: 771px) and (width: 1000px) {
+    .menu-button {
+        display: none;
+    }
+}
+@media screen and (min-width: 1001px) {
+    .menu-button {
+        display: none;
+    }
+}
+
+#slide-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; 
+    width: 70%; 
+    height: 100%; 
+    background-color: #1d4bdd;
+    z-index: 1000;
+    transition: right 0.3s ease; 
+    display: flex;
+    flex-direction: column; 
+    /* justify-content: space-around;  */
+    padding: 20px; 
+    z-index: 50;
+}
+#slide-menu.open {
+    right: 0; 
+}
+
+#slide-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#slide-menu ul li {
+  padding: 10px 8px;
+}
+
+#slide-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800; 
+  font-size: 20px;
+}
+
+#slide-menu ul li a:hover {
+    color:  #ffe600;
+}
+#slide-menu ul li:nth-child(4) a {
+    background-color:  #ffe600;
+    color: #1d4bdd;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+#slide-menu .social {
+    display: flex;
+    flex-direction: column; 
+    padding: 10px 0px;
+}
+
+#slide-menu .social-item {
+    margin-bottom: 10px; 
+}
+
+#slide-menu .icon-text {
+    color: white; 
+    text-decoration: none; 
+    display: flex;
+    align-items: center; 
+}
+
+#slide-menu .icon-text img {
+    width: 40px; 
+    margin-right: 10px; 
+}
+
+.image-perfil {
+    border-radius: 50%;
+}
+
+.swiper-button-prev-edit, .swiper-button-next-edit {
+    background-color: #1d4bdd;
+    border-radius: 50%;
+    height: 50px !important;
+    width: 50px !important;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.swiper-button-prev-edit svg{
+    height: 30px !important;
+    width: 30px !important;
+    margin: auto;
+    color:  #ffe600 !important;
+}
+
+.swiper-button-next-edit svg{
+    height: 30px !important;
+    width: 30px !important;
+    margin: auto;
+    color:  #ffe600 !important;
+}
+
+.controls-container-swiper{
+    position: relative !important;
+    top:  10rem!important;
+}
+.swiper-button-prev{
+    position: relative !important;
+    background-color: #1d4bdd !important;
+    border-radius: 50% !important;
+    padding: 1px !important;
+    height: 50px !important;
+    width: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+.swiper-button-next {
+    position: relative !important;
+    background-color: #1d4bdd !important;
+    border-radius: 50% !important;
+    padding: 1px !important;
+    height: 50px !important;
+    width: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.swiper-button-next::after {
+    color:  #ffe600 !important;
+    height: 30px !important;
+    width: 30px !important;
+    margin: auto !important;
+    font-size: 24px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.swiper-button-prev::after {
+    color:  #ffe600 !important;
+    height: 30px !important;
+    width: 30px !important;
+    margin: auto !important;
+    font-size: 24px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* services */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; 
+  }
+  
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 350px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .image {
+    background-color: #ccc;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px; /* Reducir el espacio entre la imagen y el texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    text-align: center;
+  }
+  
+  .buttons-services {
+    text-align: center;
+  }
+  
+  .buttons-services button {
+    padding: 8px 16px; /* Reducir el tamaño de los botones */
+    margin: 0 3px; /* Reducir el espacio entre los botones */
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+
+  
