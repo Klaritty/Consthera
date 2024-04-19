@@ -4,7 +4,7 @@
   <h1 class='text-black font-bold text-[2rem] font-custom text-center'>
     Servicios
   </h1>
-  <div class="lg:max-w-[1020px] mb-[4rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-8 md:mt-[1rem] lg:container lg:mx-auto">
+  <div class="lg:max-w-[1020px] mb-[4rem] lg:mb-[2rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-8 md:mt-[1rem] lg:container lg:mx-auto">
     <!-- lg:card--1 -->
     <div class="lg:card flex flex-row justify-center md:flex-col items-center  md:py-0 lg:py-0">
         <div class='mt-[3rem] lg:mt-[3rem]'>

@@ -20,8 +20,10 @@ Template Name: Home
 <?php include 'hero.php'; ?>
 <!--Services-->
 <?php include 'services.php'; ?>
-
-home
+<!--About-->
+<?php include 'about.php'; ?>
+<!--Testimonios-->
+<?php include 'testimonials.php'?>
 <?php wp_footer(); ?>
 </body>
 </html>
