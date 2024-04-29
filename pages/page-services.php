@@ -18,6 +18,8 @@ Template Name: Services
 <main id="home">
 <!-- Hero -->
 <?php include 'hero-services.php'; ?>
+<!-- servicios -->
+<?php include 'body-services.php'; ?>
 
 <!--Footer-->
 <?php include 'footer.php'?>

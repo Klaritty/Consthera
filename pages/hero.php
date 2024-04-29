@@ -14,5 +14,4 @@
         <button class='font-rosario text-[18px]'>RESERVA</button>
       </div>
     </div>
-
 </section>
