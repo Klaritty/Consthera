@@ -1,6 +1,6 @@
-<section id="testimonio" class='bg-[#e8eaee]'>
+<section id="testimonio" class='bg-[#E8E0DC]'>
     <div class='px-5 py-[3rem] container mx-auto'>
-        <h1 class='mb-[3rem] text-black font-bold text-[2rem] font-custom text-center'>Testimonios</h1>
+        <h1 class='mb-[3rem] text-[#0A2A45] font-bold font-belleza text-[60px] text-center'>Testimonios</h1>
 <!--        ControlsDesktop-->
         <div class="controls-container-swiper w-full flex justify-between hidden md:flex">
             <div class="select-prev swiper-button-prev"></div>
@@ -20,6 +20,7 @@
                         'name' => 'Michelle Ruiz, ',
                         'position' => 'Directora de Marketing',
                     ),
+                    
                 );
 
                 $pleca = 'https://klaritty.com/wp-content/themes/Klaritty/assets/images/quote_pleca.png';
@@ -29,11 +30,11 @@
                     echo '<div class="swiper-slide">';
                     echo '<div class="slide-content">';
                     echo '<img class="" src="' . $pleca . '" alt="'  . '" >';
-                    echo '<p class=" flex justify-center items-center md:h-[200px]">' . $slide['testimony'] . '<p>';
+                    echo '<p class=" flex justify-center font-rosario italic font items-center md:h-[200px]">' . $slide['testimony'] . '<p>';
                     echo '<img class="" src="' . $plecaCierre . '" alt="'  . '" >';
                     echo '<div  class="mt-[3rem]">';
-                    echo '<img class="w-[20%] mx-auto mb-[2rem] md:w-[10%] image-perfil" src="' . $slide['imagen'] . '" alt="'  . '" >';
-                    echo '<p>' . $slide['name'] . '<span class="font-bold">' . $slide['position'] . '</span>' . '</p>';
+                    // echo '<img class="w-[20%] mx-auto mb-[2rem] md:w-[10%] image-perfil" src="' . $slide['imagen'] . '" alt="'  . '" >';
+                    echo '<p>' . $slide['name'] . '<span class="font-bold font-rosario">' . $slide['position'] . '</span>' . '</p>';
                     echo '</div>';
                     echo '</div>';
                     echo '</div>';

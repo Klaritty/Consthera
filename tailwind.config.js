@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'custom': ['IBM Plex Sans', 'sans-serif'], 
+        'belleza': ['Belleza', 'sans-serif'], 
+        'rosario': ['Rosario', 'sans-serif'], 
       },
     },
   },

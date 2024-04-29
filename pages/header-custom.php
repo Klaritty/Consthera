@@ -10,11 +10,11 @@
     </div>
     <div class='navbar__links'>
             <ul class="links font-custom">
-              <li><a href="#">About</a><span class='span'>|</span></li> 
-                <li><a href="#">Servicios</a><span class='span'>|</span></li> 
-                <li><a href="#" class='mr-[1rem]'>Testimonio</a><span class='span'>|</span></li> 
-                <li><a href="#">Contáctanos</a></li>
-                <li><a href="#">Reserva</a></li>
+              <li><a href="#" class='font-rosario font-bold'>About</a><span class='span'>|</span></li> 
+                <li><a href="#" class='font-rosario font-bold '>Servicios</a><span class='span'>|</span></li> 
+                <li><a href="#" class='mr-[1rem] font-rosario font-bold'>Testimonio</a><span class='span'>|</span></li> 
+                <li><a href="#" class='font-rosario font-bold'>Contáctanos</a></li>
+                <li><a href="#" class='font-rosario font-bold'>Reserva</a></li>
             </ul>
             <div class="social-icons">
               <div class=''>
