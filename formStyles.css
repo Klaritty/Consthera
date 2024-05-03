@@ -1,0 +1,92 @@
+.nf-form-content{
+    padding: 0!important;
+}
+
+/*Input: Name, Email, Numero, Empresa*/
+.nf-form-content input.ninja-forms-field{
+    height: 0!important;
+    background-color: #DAD1CC!important;
+    color: black!important;
+    border: none!important;
+    border-radius: 10px!important;
+    margin-bottom: 10px!important;
+}
+
+/*Input: mensaje*/
+#nf-field-3 {
+    border-radius: 10px!important;
+    padding: 5px!important;
+    color: black!important;
+    background-color: #DAD1CC;
+    margin-bottom: 20px!important;
+    border: none!important;
+}
+
+.nf-form-content textarea.ninja-forms-field {
+    height: 100px!important;
+}
+
+.nf-before-form-content {
+    display: none!important;
+}
+
+/*name input form*/
+.nf-field-label label{
+    font-size: 12px!important;
+    color: black;
+    font-family: 'Rosario', sans-serif;
+}
+
+.nf-field-container{
+    margin-bottom: 5px!important;
+}
+
+#nf-field-7{
+    height: auto!important;
+}
+
+.nf-form-content .list-select-wrap > div {
+    height: auto!important;
+}
+
+
+/*Button Enviar*/
+#nf-field-4 {
+    height: 35px!important;
+    margin-top: 5px!important;
+    padding: 5px 40px 5px 40px!important;
+    background-color: #BD9062!important;
+    color: white!important;
+    border-radius: 30px !important;
+    border: none !important;
+}
+
+.ninja-forms-req-symbol {
+    color: #BD9062!important;
+}
+
+.nf-field-label {
+    margin-bottom: 5px!important;
+}
+
+#nf-field-3-container {
+    margin-top: 10px!important;
+}
+
+#nf-form-title-1{
+    display: none!important;
+}
+
+.nf-pass.field-wrap .nf-field-element:after {
+    display: none!important;
+}
+
+
+.nf-error.field-wrap .nf-field-element:after {
+    display: none !important;
+}
+
+/*mensaje de error*/
+.nf-after-form-content{
+    display: none;
+}

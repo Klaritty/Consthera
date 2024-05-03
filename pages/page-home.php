@@ -26,9 +26,10 @@ Template Name: Home
 <?php include 'testimonials.php'?>
 <!--Reservatiom-->
 <?php include 'reservation.php'?>
+<!--contacto-->
+<?php include 'contacto.php'?>
 <!--Footer-->
 <?php include 'footer.php'?>
-
 <?php wp_footer(); ?>
 </body>
 </html>
