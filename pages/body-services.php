@@ -89,8 +89,8 @@
         <p class="text-gray-700 mb-2">' . $cardData["paragraph"] . '</p>
         <h2 class="text-lg font-semibold mb-2">' . $cardData["subtitle"] . '</h2>
         <div class="flex items-center justify-center p-[3rem]">
-           <button class=" font-rosario bg-transparent border border-black text-black py-1 px-3 rounded-full text-sm mr-4">' . $cardData["button1Text"] . '</button>
-           <button class="font-rosario bg-[#BD9062] py-1 px-3 rounded-full text-white text-[14px]">' . $cardData["button2Text"] . '</button>
+           <button class=" font-rosario bg-transparent border border-gray-900 text-gray-900 py-3 px-5 rounded-full text-sm mr-4">' . $cardData["button1Text"] . '</button>
+           <button class="font-rosario bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">' . $cardData["button2Text"] . '</button>
         </div>
       </div>';
   }

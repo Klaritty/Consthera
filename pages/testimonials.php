@@ -1,4 +1,4 @@
-<section id="testimonio" class='bg-[#E8E0DC]'>
+<section id="testimonios" class='bg-[#E8E0DC]'>
     <div class='px-5 py-[3rem] container mx-auto'>
         <h1 class='mb-[3rem] text-[#0A2A45] font-bold font-belleza text-[60px] text-center'>Testimonios</h1>
 <!--        ControlsDesktop-->
@@ -13,14 +13,38 @@
                 $slides = array(
                     array(
                         'id' => 1,
-                        'testimony' => 'Hemos tenido la oportunidad de coincidir en distintos proyectos con Maruchan y en todos ellos hemos quedado muy satisfechos con los resultados, no solo por su nivel de trabajo y profesionalismo, si no por el extra que cada integrante del equipo le pone e imprime en cada etapa del proyecto, siempre buscando el cómo sí. Hemos recorrido eventos, campañas y el reciente refresh de nuestro sitio oficial en México, en cada proyecto se puede ver la huella Klaritty con entusiasmo y un excelente liderazgo.
-                        ',
-                        'imagen' => 'https://klaritty.com/wp-content/themes/Klaritty/assets/images-g/quotes_img-01.png',
-
-                        'name' => 'Michelle Ruiz, ',
-                        'position' => 'Directora de Marketing',
+                        'testimony' => 'Me encanta tener terapia con la terapeuta Alma.',
+                        'name' => 'Alfonso.',
+                       
                     ),
-                    
+                    array(
+                        'id' => 2,
+                        'testimony' => 'Siempre agradecida con las terapias de la Psicóloga Alma.
+                        ',
+                        'name' => 'Laura.',
+                        
+                    ),
+                    array(
+                        'id' => 3,
+                        'testimony' => 'Me encantó la sesión.
+                        ',
+                        'name' => 'Esteban.',
+                       
+                    ),
+                    array(
+                        'id' => 4,
+                        'testimony' => 'Trabajar en mis creencias está muy cañón, invertir en cambiar creencias es lo mejor, gracias por estar acompañándome en este camino.
+                        ',
+                        'name' => 'Patricia.',
+                        
+                    ),
+                    array(
+                        'id' => 4,
+                        'testimony' => 'Conecto mucho con Alma y me siento muy inspirada, agradezco su labor .
+                        ',
+                        'name' => 'Melanie.',
+                        
+                    ),
                 );
 
                 $pleca = 'https://klaritty.com/wp-content/themes/Klaritty/assets/images/quote_pleca.png';
@@ -34,7 +58,7 @@
                     echo '<img class="" src="' . $plecaCierre . '" alt="'  . '" >';
                     echo '<div  class="mt-[3rem]">';
                     // echo '<img class="w-[20%] mx-auto mb-[2rem] md:w-[10%] image-perfil" src="' . $slide['imagen'] . '" alt="'  . '" >';
-                    echo '<p>' . $slide['name'] . '<span class="font-bold font-rosario">' . $slide['position'] . '</span>' . '</p>';
+                    echo '<p>' . $slide['name'] . '</p>';
                     echo '</div>';
                     echo '</div>';
                     echo '</div>';

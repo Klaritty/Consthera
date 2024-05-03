@@ -2,7 +2,7 @@
 
 
 ?>
-<section id='home' class=' bg-[#0A2A45]'>
+<section id='inicio' class=' bg-[#0A2A45]'>
     <div class='pb-[6rem] pt-[8rem] container mx-auto'>
         <h1 class='text-center pb-[2rem] font-belleza text-[60px] text-white'>Encuentra la sanación integral, el bienestar y la paz interior en Consthera.</h1>
         <div class=" w-[10%] mx-auto border-[#BD9062] border-t-2 mb-[2rem]"></div>

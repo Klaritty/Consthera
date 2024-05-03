@@ -15,7 +15,7 @@
                     <h1 class='text-[#EBDBCE]  font-bold font-belleza text-[60px] md:text-left mb-[1.5rem]'>Reserva</h1>
                     <h2 class="text-[#EBDBCE]  font-belleza text-[35px] text-center md:text-left font-semibold mb-[1.5rem]">¡Reserva ahora una de nuestras 9 sesiones de Terapia estés donde estés!</h2>
                     <p class="text-[#EBDBCE] font-belleza text-[12px] text-center md:text-left lg:text-[20px] mb-[1.5rem]">Resguarda tu lugar para una experiencia transformadora, ya sea que busques una Terapia online o física en Monterrey.</p>
-                    <select class="bfont-rosario bg-[#BD9062] py-1 px-3 rounded-full text-white text-[14px]">
+                    <select class="font-rosario bg-[#BD9062] py-3 px-5 rounded-full text-white text-[18px]">
                             <option value="servicio1 text-black">Servicio 1</option>
                             <option value="servicio2 text-black">Servicio 2</option>
                             <option value="servicio3 text-black">Servicio 3</option>
