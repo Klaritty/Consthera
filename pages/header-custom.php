@@ -45,8 +45,8 @@
   
   <div id="slide-menu" class="slide-menu ">
     <ul class='mt-[3rem] mb-[2rem] font-custom text-[16px]'>
-      <li><a href="<?php echo get_site_url(); ?>/#sobre-nosotros" class='font-rosario font-bold'>About</a><span class='span'>|</span></li> 
-      <li><a href="<?php echo get_site_url(); ?>/#servicios" class='font-rosario font-bold '>Servicios</a><span class='span'>|</span></li> 
+      <li><a  href='<?php echo esc_url( home_url( '/about-consthera/' ) ); ?>' class='font-rosario font-bold'>About</a><span class='span'>|</span></li> 
+      <li><ahref='<?php echo esc_url( home_url( '/nuestros-servicios/' ) ); ?>' class='font-rosario font-bold '>Servicios</ahref=><span class='span'>|</span></li> 
       <li><a href="<?php echo get_site_url(); ?>/#testimonios" class='mr-[1rem] font-rosario font-bold'>Testimonio</a><span class='span'>|</span></li> 
       <li><a href="<?php echo get_site_url(); ?>/#klaritty" class='font-rosario font-bold'>Contáctanos</a><span class='span'>|</span></li>
        <li><a href="<?php echo get_site_url(); ?>/#klaritty" class='font-rosario font-bold'>Reserva</a></li>

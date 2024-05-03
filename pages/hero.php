@@ -11,7 +11,7 @@
             </p>
         </div>
         <div class="buttons-services mt-[3rem]">
-        <button class='font-rosario text-[18px]'>RESERVA</button>
+        <a  href='<?php echo esc_url( home_url( '/about-consthera/' ) ); ?>' class='font-rosario bg-[#BD9062] no-underline py-3 px-5 rounded-full text-white text-[18px]'>RESERVA</a>
       </div>
     </div>
 </section>

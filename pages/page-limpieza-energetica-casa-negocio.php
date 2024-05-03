@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: idividual
+Template Name: energetica-casa
 */
 ?>
 <!DOCTYPE html>
