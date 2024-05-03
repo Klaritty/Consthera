@@ -1,11 +1,12 @@
 <?php
 ?>
 <section id='servicios' class='py-[5rem] bg-[#e8eaee]'>
-    <h1 class='text-[#0A2A45] font-bold font-belleza text-[60px]  text-center'>
-        Servicios
+    <h1 class='text-[#0A2A45] font-semibold font-belleza text-[55px]  text-center'>
+        Nuestros Servicios
     </h1>
+    <img class='w-[10rem] h-auto mx-auto pt-[2rem]' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"/>
     <div
-        class="lg:max-w-[1020px] mb-[4rem] lg:mb-[2rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-8 md:mt-[1rem] lg:container lg:mx-auto">
+        class="lg:max-w-[1020px]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-8 lg:container lg:mx-auto">
         <!-- lg:card--1 -->
         <div class="lg:card flex flex-row justify-center md:flex-col items-center  md:py-0 lg:py-0">
             <div class=' lg:mt-[3rem]'>

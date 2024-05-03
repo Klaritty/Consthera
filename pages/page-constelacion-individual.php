@@ -123,7 +123,7 @@ Template Name: idividual
                             </p>
                         </div>
                         <div class='pt-8'>
-                    <a href='<?php echo esc_url( home_url( '/sanacion-de-fallecidos-y-contacto-con-ellos/' ) ); ?>'
+                    <a href='<?php echo esc_url( home_url( '/limpieza-energetica-de-casa-o-negocio/' ) ); ?>'
                         class=' font-rosario bg-transparent border no-underline border-gray-900 text-gray-900 py-3 px-5    rounded-full text-sm'>VER
                         MÁS</a>
                     <a href='#'
@@ -153,7 +153,7 @@ Template Name: idividual
                             </p>
                         </div>
                         <div class='pt-8'>
-                    <a href='<?php echo esc_url( home_url( '/sanacion-de-fallecidos-y-contacto-con-ellos/' ) ); ?>'
+                    <a href='<?php echo esc_url( home_url( '/limpieza-energetica-a-personas-animales-o-plantas/' ) ); ?>'
                         class=' font-rosario bg-transparent border no-underline border-gray-900 text-gray-900 py-3 px-5    rounded-full text-sm'>VER
                         MÁS</a>
                     <a href='#'
@@ -184,7 +184,7 @@ Template Name: idividual
                             </p>
                         </div>
                         <div class='pt-8'>
-                    <a href='<?php echo esc_url( home_url( '/sanacion-de-fallecidos-y-contacto-con-ellos/' ) ); ?>'
+                    <a href='<?php echo esc_url( home_url( '/limpieza-energetica-de-autos-transportes/' ) ); ?>'
                         class=' font-rosario bg-transparent border no-underline border-gray-900 text-gray-900 py-3 px-5    rounded-full text-sm'>VER
                         MÁS</a>
                     <a href='#'

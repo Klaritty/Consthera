@@ -1,6 +1,7 @@
 <section id="testimonios" class='bg-[#E8E0DC]'>
     <div class='px-5 py-[3rem] container mx-auto'>
-        <h1 class='mb-[3rem] text-[#0A2A45] font-bold font-belleza text-[60px] text-center'>Testimonios</h1>
+        <h1 class='mb-[1rem] text-[#0A2A45] font-bold font-belleza text-[55px] text-center'>Testimonios</h1>
+        <img class='w-[10rem] h-auto mx-auto ' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"/>
 <!--        ControlsDesktop-->
         <div class="controls-container-swiper w-full flex justify-between hidden md:flex">
             <div class="select-prev swiper-button-prev"></div>

@@ -50,19 +50,19 @@ p {
 .span{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    color: black;
+    color: white;
     
 }
 
 .links li a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: bold; 
     font-family:'Rosario', sans-serif ;
 }
 
 .links li a:hover { 
-    color: #fff;
+    color: antiquewhite;
 }
 .links li:nth-child(4) a {
   padding-right: 1rem;
@@ -70,7 +70,7 @@ p {
 
 .links li:nth-child(5) a {
     background-color:  #BD9062;
-    color: #0A2A45;
+    color: white;
     border-radius: 20px;
     padding: 10px;
 }
@@ -215,7 +215,7 @@ align-items: center;
     position: fixed;
     top: 0;
     right: -100%; 
-    width: 70%; 
+    width: 100%; 
     height: 100%; 
     background-color: #0A2A45;
     z-index: 1000;
@@ -223,7 +223,7 @@ align-items: center;
     display: flex;
     flex-direction: column; 
     /* justify-content: space-around;  */
-    padding: 20px; 
+    padding: 35px; 
     z-index: 50;
 }
 #slide-menu.open {
