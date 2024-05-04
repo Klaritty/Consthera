@@ -9,10 +9,8 @@
         class="lg:max-w-[1020px]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-8 lg:container lg:mx-auto">
         <!-- lg:card--1 -->
         <div class="lg:card flex flex-row justify-center md:flex-col items-center  md:py-0 lg:py-0">
-            <div class=' lg:mt-[3rem]'>
-                <div class="bg-black rounded-full w-24 h-24 md:w-[8rem] md:h-[8rem] flex items-center justify-center">
-                    <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_bullet_2.svg" alt="facebook" class='w-[70%]' /> -->
-                </div>
+            <div class=' lg:mt-[3rem] flex items-center justify-center'>
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg" alt="facebook" class='object-cover rounded-full w-[60%]' />
             </div>
             <div class='md:flex md:flex-col md:items-center'>
                 <div class="p-4 md:text-center w-[100%] md:w-[75%] lg:w-full md:h-[12rem]">
@@ -37,10 +35,8 @@
         <div class="md:hidden w-[80%] ml-[2rem] border-gray-900 border-t-2 mt-[4rem]"></div>
         <!-- lg:card--2 -->
         <div class="lg:card flex flex-row justify-center md:flex-col items-center  md:py-0 lg:py-0">
-            <div class=' lg:mt-[3rem]'>
-                <div class="bg-black rounded-full w-24 h-24 md:w-[8rem] md:h-[8rem] flex items-center justify-center">
-                    <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_bullet_2.svg" alt="facebook" class='w-[70%]' /> -->
-                </div>
+        <div class=' lg:mt-[3rem] flex items-center justify-center'>
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_2.jpg" alt="facebook" class='object-cover rounded-full w-[60%]' />
             </div>
             <div class='md:flex md:flex-col md:items-center'>
                 <div class="p-4 md:text-center w-[100%] md:w-[75%] lg:w-full md:h-[12rem] ">
@@ -63,10 +59,8 @@
         <div class="md:hidden w-[80%] ml-[2rem] border-gray-900 border-t-2 mt-[4rem]"></div>
         <!-- lg:card--3 -->
         <div class="lg:card flex flex-row justify-center md:flex-col items-center  md:py-0 lg:py-0">
-            <div class=' lg:mt-[2rem]'>
-                <div class="bg-black rounded-full w-24 h-24 md:w-[8rem] md:h-[8rem] flex items-center justify-center">
-                    <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_bullet_2.svg" alt="facebook" class='w-[70%]' /> -->
-                </div>
+        <div class=' lg:mt-[3rem] flex items-center justify-center'>
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_3.jpg" alt="facebook" class='object-cover rounded-full w-[60%]' />
             </div>
             <div>
             </div>
@@ -92,10 +86,8 @@
         <div class="md:hidden w-[80%] ml-[2rem] border-gray-900 border-t-2 mt-[4rem]"></div>
         <!-- lg:card--4 -->
         <div class="lg:card flex flex-row justify-center md:flex-col items-center  md:py-0 lg:py-0">
-            <div class=' lg:mt-[3rem]'>
-                <div class="bg-black rounded-full w-24 h-24 md:w-[8rem] md:h-[8rem] flex items-center justify-center">
-                    <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_bullet_2.svg" alt="facebook" class='w-[70%]' /> -->
-                </div>
+        <div class=' lg:mt-[3rem] flex items-center justify-center'>
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_4.jpg" alt="facebook" class='object-cover rounded-full w-[60%]' />
             </div>
             <div class='md:flex md:flex-col md:items-center'>
                 <div class="p-4 md:text-center w-[100%] md:w-[75%] lg:w-full md:h-[12rem] ">
@@ -118,10 +110,8 @@
         <div class="md:hidden w-[80%] ml-[2rem] border-gray-900 border-t-2 mt-[4rem]"></div>
         <!-- lg:card--5 -->
         <div class="lg:card flex flex-row justify-center md:flex-col items-center  md:py-0 lg:py-0">
-            <div class='lg:mt-[3rem]'>
-                <div class="bg-black rounded-full w-24 h-24 md:w-[8rem] md:h-[8rem] flex items-center justify-center">
-                    <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_bullet_2.svg" alt="facebook" class='w-[70%]' /> -->
-                </div>
+        <div class=' lg:mt-[3rem] flex items-center justify-center'>
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_5.jpg" alt="facebook" class='object-cover rounded-full w-[60%]' />
             </div>
             <div class='md:flex md:flex-col md:items-center'>
                 <div class="p-4 md:text-center w-[100%] md:w-[75%] lg:w-full md:h-[12rem] ">
@@ -144,10 +134,8 @@
         <div class="md:hidden w-[80%] ml-[2rem] border-gray-900 border-t-2 mt-[4rem]"></div>
         <!-- lg:card--6 -->
         <div class="lg:card flex flex-row justify-center md:flex-col items-center  md:py-0 lg:py-0">
-            <div class=' lg:mt-[3rem]'>
-                <div class="bg-black rounded-full w-24 h-24 md:w-[8rem] md:h-[8rem] flex items-center justify-center">
-                    <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_bullet_2.svg" alt="facebook" class='w-[70%]' /> -->
-                </div>
+        <div class=' lg:mt-[3rem] flex items-center justify-center'>
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_6.jpg" alt="facebook" class='object-cover rounded-full w-[60%]' />
             </div>
             <div class='md:flex md:flex-col md:items-center'>
                 <div class="p-4 md:text-center w-[100%] md:w-[75%] lg:w-full md:h-[12rem] ">
@@ -169,5 +157,8 @@
             </div>
         </div>
     </div>
-
+    <img class='w-[10rem] h-auto mx-auto pt-[2rem]' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"/>
+    <div class="buttons-services mt-[3rem]">
+        <a  href='<?php echo esc_url( home_url( '/#/' ) ); ?>' class='font-rosario bg-[#BD9062] no-underline py-2 px-5 rounded-full text-white text-[14px]'>MÁS SERVICIOS </a>
+      </div>
 </section>

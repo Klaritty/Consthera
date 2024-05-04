@@ -2,8 +2,8 @@
 
 
 ?>
-<section id='inicio' class=' bg-[#0A2A45]'>
-    <div class='pb-[6rem] pt-[3rem] container mx-auto'>
+<section id='inicio' class='bg-cover bg-no-repeat bg-center' style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_hero_back_desk.jpg');">
+    <div class='pb-[6rem] pt-[6rem] container mx-auto'>
         <img class='w-[10rem] h-[10rem] mb-[3rem] mx-auto' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_star.svg"/>
         <h1 class='text-center pb-[2rem] font-belleza text-[55px] mx-auto w-[70%] text-white'>Encuentra la sanación integral, el bienestar y la paz interior en Consthera.</h1>
         <div class=" w-[10%] mx-auto border-[#BD9062] border-t-2 mb-[2rem]"></div>

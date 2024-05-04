@@ -1,6 +1,6 @@
 <?php
 ?>
-<section id='sobre-nosotros' class=' bg-[#0A2A45]'>
+<section id='sobre-nosotros'  class='bg-cover bg-no-repeat bg-center' style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_about_back_desk.jpg');">
     <div class="container mx-auto pt-[3rem] pb-[3rem]">
         <h1 class='text-white  font-bold  font-belleza text-[60px] text-center'>
         About Consthera

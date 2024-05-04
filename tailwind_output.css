@@ -670,6 +670,10 @@ video {
   margin-top: 2rem;
 }
 
+.ml-\[4rem\] {
+  margin-left: 4rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -926,6 +930,27 @@ video {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('/img/hero-pattern.svg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -936,6 +961,10 @@ video {
 
 .p-\[3rem\] {
   padding: 3rem;
+}
+
+.p-80 {
+  padding: 20rem;
 }
 
 .px-5 {
@@ -1022,6 +1051,14 @@ video {
 
 .pt-\[1rem\] {
   padding-top: 1rem;
+}
+
+.pt-\[7rem\] {
+  padding-top: 7rem;
+}
+
+.pl-\[6rem\] {
+  padding-left: 6rem;
 }
 
 .text-left {
@@ -1265,6 +1302,10 @@ video {
     height: 8rem;
   }
 
+  .md\:h-\[rem\] {
+    height: rem;
+  }
+
   .md\:w-\[10\%\] {
     width: 10%;
   }
@@ -1287,6 +1328,14 @@ video {
 
   .md\:w-\[8rem\] {
     width: 8rem;
+  }
+
+  .md\:w-\[12rem\] {
+    width: 12rem;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:grid-cols-2 {
