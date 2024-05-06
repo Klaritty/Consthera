@@ -334,8 +334,8 @@ align-items: center;
 
 .swiper-button-next::after {
     color:  #ffe600 !important;
-    height: 30px !important;
-    width: 30px !important;
+    /*height: 30px !important;*/
+    /*width: 30px !important;*/
     margin: auto !important;
     font-size: 24px !important;
     display: flex !important;
@@ -344,8 +344,8 @@ align-items: center;
 
 .swiper-button-prev::after {
     color:  #ffe600 !important;
-    height: 30px !important;
-    width: 30px !important;
+    /*height: 30px !important;*/
+    /*width: 30px !important;*/
     margin: auto !important;
     font-size: 24px !important;
     display: flex !important;
@@ -456,8 +456,6 @@ align-items: center;
 
 .swiper-button-next::after {
     color:  white !important;
-    height: 30px !important;
-    width: 30px !important;
     margin: auto !important;
     font-size: 24px !important;
     display: flex !important;
@@ -466,8 +464,6 @@ align-items: center;
 
 .swiper-button-prev::after {
     color:  white !important;
-    height: 30px !important;
-    width: 30px !important;
     margin: auto !important;
     font-size: 24px !important;
     display: flex !important;
