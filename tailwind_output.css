@@ -694,10 +694,6 @@ video {
   height: 10rem;
 }
 
-.h-\[15px\] {
-  height: 15px;
-}
-
 .h-\[2rem\] {
   height: 2rem;
 }
@@ -710,8 +706,12 @@ video {
   height: auto;
 }
 
-.h-\[20px\] {
-  height: 20px;
+.h-\[15px\] {
+  height: 15px;
+}
+
+.h-\[30px\] {
+  height: 30px;
 }
 
 .w-24 {
@@ -728,10 +728,6 @@ video {
 
 .w-\[10rem\] {
   width: 10rem;
-}
-
-.w-\[15px\] {
-  width: 15px;
 }
 
 .w-\[20\%\] {
@@ -766,8 +762,12 @@ video {
   width: 100%;
 }
 
-.w-\[20px\] {
-  width: 20px;
+.w-\[15px\] {
+  width: 15px;
+}
+
+.w-\[30px\] {
+  width: 30px;
 }
 
 .max-w-\[700px\] {
@@ -828,10 +828,6 @@ video {
 
 .gap-\[1rem\] {
   gap: 1rem;
-}
-
-.gap-\[3rem\] {
-  gap: 3rem;
 }
 
 .overflow-hidden {
@@ -917,10 +913,6 @@ video {
   background-color: transparent;
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -955,6 +947,11 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-\[2rem\] {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .px-\[3rem\] {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -978,16 +975,6 @@ video {
 .py-\[5rem\] {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.px-\[5px\] {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.px-\[2rem\] {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .pb-4 {
@@ -1036,18 +1023,6 @@ video {
 
 .pt-\[8rem\] {
   padding-top: 8rem;
-}
-
-.pt-\[2\.5rem\] {
-  padding-top: 2.5rem;
-}
-
-.pt-\[3\.5rem\] {
-  padding-top: 3.5rem;
-}
-
-.pt-\[4rem\] {
-  padding-top: 4rem;
 }
 
 .text-left {
@@ -1139,10 +1114,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[20px\] {
-  font-size: 20px;
 }
 
 .font-bold {
@@ -1291,16 +1262,12 @@ video {
     height: 200px;
   }
 
-  .md\:h-\[8rem\] {
-    height: 8rem;
-  }
-
-  .md\:h-\[400px\] {
-    height: 400px;
-  }
-
   .md\:h-\[500px\] {
     height: 500px;
+  }
+
+  .md\:h-\[8rem\] {
+    height: 8rem;
   }
 
   .md\:w-1\/2 {
@@ -1347,16 +1314,6 @@ video {
     align-items: center;
   }
 
-  .md\:bg-\[red\] {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 0 0 / var(--tw-bg-opacity));
-  }
-
-  .md\:bg-\[\#0A2A45\] {
-    --tw-bg-opacity: 1;
-    background-color: rgb(10 42 69 / var(--tw-bg-opacity));
-  }
-
   .md\:bg-\[url\(\'http\:\/\/159\.223\.204\.188\/wp-content\/themes\/Consthera\/assets\/images\/contact_frame\.png\'\)\] {
     background-image: url('http://159.223.204.188/wp-content/themes/Consthera/assets/images/contact_frame.png');
   }
@@ -1382,20 +1339,16 @@ video {
     font-size: 14px;
   }
 
-  .md\:text-\[60px\] {
-    font-size: 60px;
-  }
-
-  .md\:text-\[25px\] {
-    font-size: 25px;
+  .md\:text-\[15px\] {
+    font-size: 15px;
   }
 
   .md\:text-\[20px\] {
     font-size: 20px;
   }
 
-  .md\:text-\[15px\] {
-    font-size: 15px;
+  .md\:text-\[60px\] {
+    font-size: 60px;
   }
 }
 
@@ -1447,11 +1400,6 @@ video {
 
   .lg\:gap-\[3rem\] {
     gap: 3rem;
-  }
-
-  .lg\:bg-\[\#0A2A45\] {
-    --tw-bg-opacity: 1;
-    background-color: rgb(10 42 69 / var(--tw-bg-opacity));
   }
 
   .lg\:py-0 {

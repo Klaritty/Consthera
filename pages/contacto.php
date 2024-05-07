@@ -16,19 +16,19 @@
         <div style="border-bottom: #BD9062 1px solid" class="mb-[2rem]"></div>
           <ol class="flex flex-col gap-[1rem]">
             <li class="flex gap-1 mb-[5px]">
-              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_mail.svg' class="w-[30px] h-[30px]" alt="Correo">
+              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_mail.svg' class="w-[2rem] h-[2rem]" alt="Correo">
               <a class="my-auto font-normal font-rosario no-underline cursor-pointer" href="" target="_blank">consthera4@gmail.com</a>
             </li>
             <li class="flex gap-1 mb-[5px]">
-              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_ws.svg' class="w-[30px] h-[30px]" alt="Teléfono">
+              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_ws.svg' class="w-[2rem] h-[2rem]" alt="Teléfono">
               <a class="my-auto font-normal font-rosario no-underline cursor-pointer" href="" target="_blank">(+52) 8141485521</a>
             </li>
             <li class="flex gap-1 mb-[5px]">
-              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_ig.svg' class="w-[30px] h-[30px]" alt="instagram">
+              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_ig.svg' class="w-[2rem] h-[2rem]" alt="instagram">
               <a class="my-auto font-normal font-rosario no-underline cursor-pointer" href="" target="_blank">@consthera.psic</a>
             </li>
             <li class="flex gap-1 mb-[5px]">
-              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_fb.svg' class="w-[30px] h-[30px]" alt="Facebook">
+              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_fb.svg' class="w-[2rem] h-[2rem]" alt="Facebook">
               <a class="my-auto font-normal  font-rosario no-underline cursor-pointer" target="_blank"href="">@Consthera</a>
             </li>
           </ol>
