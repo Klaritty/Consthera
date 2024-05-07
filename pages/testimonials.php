@@ -83,7 +83,7 @@
     </div>
     
 </section>
-<script src="<?php echo get_site_url(); ?>/wp-content/themes/Klaritty/node_modules/swiper/swiper-bundle.min.js"></script>
+<script src="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/node_modules/swiper/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper('.swiper-container', {
         navigation: {
