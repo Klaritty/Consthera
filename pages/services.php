@@ -29,10 +29,10 @@
                 </div>
                 <div class='pt-4 flex flex-row'>
                     <a href='<?php echo esc_url( home_url( '/constelacion-familiar-individual/' ) ); ?>'
-                        class=' font-rosario bg-transparent border no-underline border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5   rounded-full text-sm'>VER
+                        class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px] '>VER
                         MÁS</a>
                     <a href='#'
-                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5  no-underline rounded-full text-white text-[14px]'>RESERVA</a>
+                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5  no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>
         </div>
@@ -55,10 +55,10 @@
                 </div>
                 <div class='mt-[2rem] md:pt-4 md:pb-4 flex flex-row'>
                     <a href='<?php echo esc_url( home_url( '/constelacion-familiar-en-pareja/' ) ); ?>'
-                        class=' font-rosario bg-transparent border no-underline border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5   rounded-full text-sm'>VER
+                        class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px]'>VER
                         MÁS</a>
                     <a href='#'
-                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[14px]'>RESERVA</a>
+                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>
         </div>
@@ -85,10 +85,10 @@
                 </div>
                 <div class='pt-[1.7rem] md:pt-4 flex flex-row'>
                     <a href='<?php echo esc_url( home_url( '/sanacion-con-guias/' ) ); ?>'
-                        class=' font-rosario bg-transparent border no-underline border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5    rounded-full text-sm'>VER
+                        class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px]'>VER
                         MÁS</a>
                     <a href='#'
-                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[14px]'>RESERVA</a>
+                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>
         </div>
@@ -112,10 +112,10 @@
                 </div>
                 <div class='pt-[1rem] md:pt-[3rem] flex flex-row'>
                     <a href='<?php echo esc_url( home_url( '/sanacion-akashica/' ) ); ?>'
-                        class=' font-rosario bg-transparent border no-underline border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5    rounded-full text-sm'>VER
+                        class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px]'>VER
                         MÁS</a>
                     <a href='#'
-                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[14px]'>RESERVA</a>
+                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>
         </div>
@@ -139,10 +139,10 @@
                 </div>
                 <div class='pt-[3rem] flex flex-row'>
                     <a href='<?php echo esc_url( home_url( '/sanacion-con-maestros/' ) ); ?>'
-                        class=' font-rosario bg-transparent border no-underline border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5    rounded-full text-sm'>VER
+                        class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px]'>VER
                         MÁS</a>
                     <a href='#'
-                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[14px]'>RESERVA</a>
+                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>
         </div>
@@ -166,10 +166,10 @@
                 </div>
                 <div class='pt-[1rem] md:pt-[3rem] flex flex-row'>
                     <a href='<?php echo esc_url( home_url( '/sanacion-de-fallecidos-y-contacto-con-ellos/' ) ); ?>'
-                        class=' font-rosario bg-transparent border no-underline border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5    rounded-full text-sm'>VER
+                        class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px]'>VER
                         MÁS</a>
                     <a href='#'
-                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[14px]'>RESERVA</a>
+                        class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>
         </div>
