@@ -187,19 +187,19 @@ $cardsData = array(
 );
 
 ?>
-<section class='pb-[3rem] pt-[3rem]'>
-    <div id="grid-container" class="grid grid-cols-2 container mx-auto">
+<section class=' pt-[3rem]'>
+    <div id="grid-container" class="grid grid-cols-2 container mx-auto justify-between">
         <?php
         // Iterar sobre las primeras 8 tarjetas
         for ($i = 0; $i < min($cardCount, 8); $i++) {
             $cardData = $cardsData[$i];
             echo '
                 <div class="rounded-lg p-6 text-center w-[70%] mx-auto col-span-2 md:col-span-1">
-                    <h3 class="text-xl font-bold mb-4">' . $cardData["title"] . '</h3>
-                    <p class="text-gray-700 mb-2">' . $cardData["paragraph"] . '</p>
-                    <h2 class="text-lg font-semibold mb-2">' . $cardData["subtitle"] . '</h2>
+                    <h3 class="text-[30px] text-[#0A2A45] font-bold mb-4">' . $cardData["title"] . '</h3>
+                    <p class="text-[#0A2A45] text-[16px] mb-2">' . $cardData["paragraph"] . '</p>
+                    <h2 class="text-lg text-[#0A2A45] font-semibold mb-2">' . $cardData["subtitle"] . '</h2>
                     <div class="flex items-center justify-center p-[3rem]">
-                        <a href="' . $cardData["link"] . '" class="font-rosario no-underline bg-transparent border border-gray-900 text-gray-900 py-3 px-5 rounded-full text-sm mr-4">' . $cardData["button1Text"] . '</a>
+                        <a href="' . $cardData["link"] . '" class="font-rosario no-underline bg-transparent border border-[#0A2A45] text-[#0A2A45] py-3 px-5 rounded-full text-sm mr-4">' . $cardData["button1Text"] . '</a>
                         <a href="' . $cardData["link2"] . '" class="font-rosario no-underline bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">' . $cardData["button2Text"] . '</a>
                     </div>
                 </div>';
@@ -209,18 +209,18 @@ $cardsData = array(
 </section>
 
 <?php
-// Si hay una novena tarjeta, mostrarla centrada debajo de las primeras 8
+
 if ($cardCount >= 9) {
-    $cardData = $cardsData[8]; // Obtener datos de la novena tarjeta
+    $cardData = $cardsData[8]; 
     echo '
-    <section class="pb-[3rem] pt-[3rem]">
+    <section class="pb-[3rem]">
         <div class="container mx-auto">
             <div class="rounded-lg p-6 text-center w-[70%] mx-auto">
-                <h3 class="text-xl font-bold mb-4">' . $cardData["title"] . '</h3>
-                <p class="text-gray-700 mb-2">' . $cardData["paragraph"] . '</p>
-                <h2 class="text-lg font-semibold mb-2">' . $cardData["subtitle"] . '</h2>
+                <h3 class="text-[30px] text-[#0A2A45] font-bold mb-4">' . $cardData["title"] . '</h3>
+                <p class="text-[#0A2A45] text-[16px] mb-2">' . $cardData["paragraph"] . '</p>
+                <h2 class="text-lg text-[#0A2A45] font-semibold mb-2">' . $cardData["subtitle"] . '</h2>
                 <div class="flex items-center justify-center p-[3rem]">
-                    <a href="' . $cardData["link"] . '" class="font-rosario no-underline bg-transparent border border-gray-900 text-gray-900 py-3 px-5 rounded-full text-sm mr-4">' . $cardData["button1Text"] . '</a>
+                    <a href="' . $cardData["link"] . '" class="font-rosario no-underline bg-transparent border border-[#0A2A45] text-[#0A2A45] py-3 px-5 rounded-full text-sm mr-4">' . $cardData["button1Text"] . '</a>
                     <a href="' . $cardData["link2"] . '" class="font-rosario no-underline bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">' . $cardData["button2Text"] . '</a>
                 </div>
             </div>
