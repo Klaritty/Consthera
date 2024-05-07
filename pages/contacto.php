@@ -25,11 +25,11 @@
             </li>
             <li class="flex gap-1 mb-[5px]">
               <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_ig.svg' class="w-[2rem] h-[2rem]" alt="instagram">
-              <a href="https://www.facebook.com/profile.php?id=100063472513452"  target="_blank" class="my-auto font-normal font-rosario no-underline cursor-pointer" href="" target="_blank">@consthera.psic</a>
+              <a href="https://www.instagram.com/consthera.psic/"  target="_blank" class="my-auto font-normal font-rosario no-underline cursor-pointer" href="" target="_blank">@consthera.psic</a>
             </li>
             <li class="flex gap-1 mb-[5px]">
               <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_fb.svg' class="w-[2rem] h-[2rem]" alt="Facebook">
-              <a  href="https://www.instagram.com/consthera.psic/" target="_blank" class="my-auto font-normal  font-rosario no-underline cursor-pointer" target="_blank"href="">@Consthera</a>
+              <a  href="https://www.facebook.com/profile.php?id=100063472513452" target="_blank" class="my-auto font-normal  font-rosario no-underline cursor-pointer" target="_blank"href="">@Consthera</a>
             </li>
           </ol>
       </div>
