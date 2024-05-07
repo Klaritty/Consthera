@@ -9,11 +9,11 @@
     </div>
     <div class='navbar__links'>
             <ul class="links font-custom">
-               <li><a href='<?php echo esc_url( home_url( '/about-consthera/' ) ); ?>' class='font-rosario font-bold'>About</a><span class='span'>|</span></li> 
+               <li><a href='<?php echo esc_url( home_url( '/about-consthera/' ) ); ?>' class='font-rosario font-bold'>Acerca de</a><span class='span'>|</span></li> 
                 <li><a href='<?php echo esc_url( home_url( '/nuestros-servicios/' ) ); ?>' class='font-rosario font-bold '>Servicios</a><span class='span'>|</span></li> 
-                <li><a href="<?php echo get_site_url(); ?>/#testimonios" class='mr-[0.5rem] font-rosario font-bold'>Testimonio</a><span class='span'>|</span></li> 
+                <li><a href="<?php echo get_site_url(); ?>/#testimonios" class='mr-[0.5rem] font-rosario font-bold'>Testimonios</a><span class='span'>|</span></li> 
                 <li><a href="<?php echo get_site_url(); ?>/#klaritty" class='font-rosario font-bold'>Contáctanos</a></li>
-                <li><a href="<?php echo get_site_url(); ?>/#klaritty" class='font-rosario font-bold'>Reserva</a></li>
+                <li><a href="https://wa.me/528141485521" target="_blank" class='font-rosario font-bold'>Reserva</a></li>
             </ul>
             <div class="social-icons">
               <div class='flex '>
@@ -65,7 +65,7 @@
     </div>
     </div>
         <div class="social-item">
-        <a href="https://www.instagram.com/consthera.psic/"target="_blank" class="icon-text">
+        <a href="https://www.instagram.com/consthera.psic/" target="_blank" class="icon-text">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_ig.svg" alt="instagram">
                 <p class='text-[18px] font-custom'>@Consthera</p>
             </a>
@@ -79,7 +79,7 @@
     </div>
     <div class='border-[#BD9062] border-b-2'></div>
     <div class="buttons-services mt-[3rem]">
-        <a  href='<?php echo esc_url( home_url( '/#/' ) ); ?>' class='font-rosario bg-[#BD9062] no-underline py-3 px-5 rounded-full text-white text-[15px]'>RESERVA UNA SESIÓN</a>
+        <a  href="https://wa.me/528141485521" target="_blank" class='font-rosario bg-[#BD9062] no-underline py-3 px-5 rounded-full text-white text-[15px]'>RESERVA UNA SESIÓN</a>
       </div>
     </div>
 </div>
