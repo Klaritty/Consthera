@@ -48,15 +48,15 @@
                     ),
                 );
 
-                $pleca = 'https://klaritty.com/wp-content/themes/Klaritty/assets/images/quote_pleca.png';
-                $plecaCierre = 'https://klaritty.com/wp-content/themes/Klaritty/assets/images/quote_pleca_cierre.png';
+                $pleca = 'http://consthera.local/wp-content/uploads/2024/05/quote_pleca.png';
+                $plecaCierre = 'http://consthera.local/wp-content/uploads/2024/05/quote_pleca.png';
 
                 foreach ($slides as $slide) {
                     echo '<div class="swiper-slide">';
                     echo '<div class="slide-content">';
                     echo '<img class="" src="' . $pleca . '" alt="'  . '" >';
                     echo '<p class=" flex justify-center font-rosario italic font items-center md:h-[200px]">' . $slide['testimony'] . '<p>';
-                    echo '<img class="" src="' . $plecaCierre . '" alt="'  . '" >';
+                    echo '<img class="transform rotate-180" src="' . $plecaCierre . '" alt="'  . '" >';
                     echo '<div  class="mt-[3rem]">';
                     // echo '<img class="w-[20%] mx-auto mb-[2rem] md:w-[10%] image-perfil" src="' . $slide['imagen'] . '" alt="'  . '" >';
                     echo '<p>' . $slide['name'] . '</p>';
@@ -66,7 +66,9 @@
                 }
                 ?>
             </div>
+            
         </div>
+        <img class='w-[10rem] h-auto mx-auto  mt-[3rem]' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"/>
 <!--        ControlsMobile-->
         <div class='flex justify-center mt-[3rem] gap-3 md:hidden'>
             <div class="select-prev swiper-button-prev-edit"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="text-white">
@@ -79,6 +81,7 @@
             </div>
         </div>
     </div>
+    
 </section>
 <script src="<?php echo get_site_url(); ?>/wp-content/themes/Klaritty/node_modules/swiper/swiper-bundle.min.js"></script>
 <script>

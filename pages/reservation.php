@@ -19,12 +19,14 @@
                             UNA SESIÓN</a>
                     </div>
                 </div>
-                <div class=' ml-[4rem]'>
+                <div class=' ml-[4rem] mr-[4rem]'>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/pleca_vertical.png" alt="" class=' h-auto rounded-full' />
                     </div>
                 <div class="w-full md:w-[50%] ">
-                    <div class=''>
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_img_desk.jpg" alt="" class='w-[50%] h-auto rounded-full' />
+                    <div class='flex items-center justify-center'>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
+                    class='object-cover rounded-full w-[24%] absolute ' />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_img_desk.jpg" alt="" class='w-[60%] h-auto rounded-full relative ' />
                     </div>
                 </div>
             </div>

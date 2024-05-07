@@ -11,7 +11,7 @@
             <ul class="links font-custom">
                <li><a href='<?php echo esc_url( home_url( '/about-consthera/' ) ); ?>' class='font-rosario font-bold'>About</a><span class='span'>|</span></li> 
                 <li><a href='<?php echo esc_url( home_url( '/nuestros-servicios/' ) ); ?>' class='font-rosario font-bold '>Servicios</a><span class='span'>|</span></li> 
-                <li><a href="<?php echo get_site_url(); ?>/#testimonios" class='mr-[1rem] font-rosario font-bold'>Testimonio</a><span class='span'>|</span></li> 
+                <li><a href="<?php echo get_site_url(); ?>/#testimonios" class='mr-[0.5rem] font-rosario font-bold'>Testimonio</a><span class='span'>|</span></li> 
                 <li><a href="<?php echo get_site_url(); ?>/#klaritty" class='font-rosario font-bold'>Contáctanos</a></li>
                 <li><a href="<?php echo get_site_url(); ?>/#klaritty" class='font-rosario font-bold'>Reserva</a></li>
             </ul>
