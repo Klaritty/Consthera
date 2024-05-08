@@ -1,14 +1,14 @@
 <?php
 ?>
-<div class='bg-cover bg-no-repeat bg-center pt-[3rem] pb-[3rem]' style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_back_desk.jpg');"">
+<div class='bg-cover bg-no-repeat bg-center pt-[3rem]' style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_back_desk.jpg');"">
     <div class='container mx-auto'>
         <h1 class='text-[#EBDBCE] font-semibold font-belleza text-[30px] md:text-[60px] text-center mb-[1.5rem]'>RESERVA UNA SESIÓN</h1>
         <img class='w-[10rem] h-auto mx-auto pt-[1rem]'
             src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg" />
         <div class=" mx-auto ">
-            <div class="flex flex-col md:flex-row justify-center items-center mt-[3rem]  md:py-0 lg:py-0">
+            <div class="flex flex-col md:flex-row justify-center items-center  md:py-0 lg:py-0">
                 <div class="w-full md:w-1/2">
-                    <div class="p-4 text-center md:text-left">
+                    <div class="p-[3rem] text-center md:text-left">
                         <h2 class="text-[#EBDBCE] font-belleza text-[28px] md:text-[35px] font-semibold mb-[1.5rem]">
                             ¡Reserva ahora una de nuestras 9 sesiones de Terapia estés donde estés!</h2>
                         <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[1.5rem]">
