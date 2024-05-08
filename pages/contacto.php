@@ -10,8 +10,10 @@
     <div class="flex flex-col md:flex-row gap-[1rem] lg:gap-[3rem] md:h-[500px]">
       <div class="md:pt-[4rem] px-[2rem] flex flex-col mb-[2rem] md:w-1/2 bg-cover bg-no-repeat bg-center md:bg-[url('http://159.223.204.188/wp-content/themes/Consthera/assets/images/contact_frame.png')]">
         <div class="mb-[2rem]">
-          <h3 class="text-center font-bold font-rosario text-[#0A2A45] md:text-[20px] ">¡CONÉCTATE <br>CON TU BIENESTAR! </h3>
-          <p class="text-center px-[3rem] font-normal font-rosario text-[#0A2A45] md:text-[15px]">Completa el formulario o contáctanos directamente para empezar tu evolución.</p>
+          <h3 class="text-center font-bold font-rosario text-[#0A2A45] md:text-[20px] ">¡TU BIENESTAR <br>COMIENZA AQUÍ! </h3>
+          <p class="text-center px-[3rem] font-normal font-rosario text-[#0A2A45] md:text-[15px]">¡Conéctate al camino ahora!
+Completa el formulario o escribe un mensaje de WhatsApp
+.</p>
         </div>
         <div style="border-bottom: #BD9062 1px solid" class="mb-[2rem]"></div>
           <ol class="flex flex-col gap-[1rem]">

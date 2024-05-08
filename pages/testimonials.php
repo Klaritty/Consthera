@@ -55,7 +55,7 @@
                     echo '<div class="swiper-slide">';
                     echo '<div class="slide-content">';
                     echo '<img class="" src="' . $pleca . '" alt="'  . '" >';
-                    echo '<p class=" flex justify-center font-rosario italic font items-center md:h-[200px]">' . $slide['testimony'] . '<p>';
+                    echo '<p class=" flex justify-center font-rosario italic font items-center md:h-[100px]">' . $slide['testimony'] . '<p>';
                     echo '<img class="transform rotate-180" src="' . $plecaCierre . '" alt="'  . '" >';
                     echo '<div  class="mt-[3rem]">';
                     // echo '<img class="w-[20%] mx-auto mb-[2rem] md:w-[10%] image-perfil" src="' . $slide['imagen'] . '" alt="'  . '" >';

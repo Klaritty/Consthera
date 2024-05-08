@@ -53,7 +53,7 @@
                     <p class="text-[#0A2A45] font-rosario  text-[12px] lg:text-[14px]">Abordamos juntos temas como
                         comunicación, infidelidad y relación familiar en una sesión integral de parejas.</p>
                 </div>
-                <div class='mt-[2rem] md:pt-4 md:pb-4 flex flex-row'>
+                <div class='mt-[2rem] md:mt-0 md:pt-4 md:pb-4 flex flex-row'>
                     <a href='<?php echo esc_url( home_url( '/constelacion-familiar-en-pareja/' ) ); ?>'
                         class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px]'>VER
                         MÁS</a>

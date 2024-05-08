@@ -197,6 +197,8 @@ Template Name: idividual
         </section>
         <!--Footer-->
         <?php include 'footer.php'?>
+        <!--button to up -->
+<?php include 'scroll-to-up.php'?>
     </main>
     <?php wp_footer(); ?>
 </body>

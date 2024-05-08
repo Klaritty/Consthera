@@ -3,7 +3,7 @@
 
 ?>
 
-<section class=' pt-[3rem] pb-[3rem]'>
+<section class=' pt-[3rem] pb-[3rem] bg-[#e8eaee]''>
     <div id="grid-container" class="grid grid-cols-2 gap-y-10 container mx-auto justify-between">
         <!-- Tarjeta 1 -->
         <div class="rounded-lg p-2 text-center w-[70%] mx-auto col-span-2 md:col-span-1"
@@ -165,7 +165,7 @@
         </div>
 
         <!-- Tarjeta 10 -->
-        <div class="rounded-lg p-6 text-center w-[70%] mx-auto col-span-2 md:col-span-1"
+        <div class="hidden md:block rounded-lg p-6 text-center w-[70%] mx-auto col-span-2 md:col-span-1"
             style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_star.svg'); background-size: cover; background-position: center;">
             <!-- <h3 class="text-[30px] text-white font-bold mb-4">Limpieza energética de autos / transportes.</h3> -->
             <!-- <p class="text-white text-[16px] mb-2">Eliminamos las energías negativas y entidades que podrían -->

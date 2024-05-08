@@ -129,6 +129,8 @@ Template Name: espiritual
 <?php include 'footer.php'?>
 </main>
 <?php wp_footer(); ?>
+<!--button to up -->
+<?php include 'scroll-to-up.php'?>
 </body>
 </html>
 
