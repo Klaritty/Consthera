@@ -14,7 +14,7 @@
                         <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[1.5rem]">
                             Resguarda tu lugar para una experiencia transformadora, ya sea que busques una Terapia
                             online o física en Monterrey.</p>
-                        <a href='#'
+                        <a href="https://wa.me/528141485521"  target="_blank"
                             class='font-rosario bg-[#BD9062] py-3 px-5 no-underline rounded-full text-white text-[14px]'>RESERVA
                             UNA SESIÓN</a>
                     </div>

@@ -20,12 +20,14 @@ Template Name: About
 <?php include 'hero-about.php'; ?>
 <!--History-->
 <?php include 'history-about.php'; ?>
-<!--Objectives-->
-<?php include 'objectives-about.php'; ?>
-
-
+<!--Reservatiom-->
+<?php include 'reservation.php'?>
+<!--contacto-->
+<?php include 'contacto.php'?>
 <!--Footer-->
 <?php include 'footer.php'?>
+<!--button to up -->
+<?php include 'scroll-to-up.php'?>
 <?php wp_footer(); ?>
 </body>
 </html>

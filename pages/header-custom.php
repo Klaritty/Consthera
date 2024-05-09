@@ -13,7 +13,7 @@
                         class='font-rosario font-bold '>Servicios</a><span class='span'>|</span></li>
                 <li><a href="<?php echo get_site_url(); ?>/#testimonios"
                         class='mr-[0.5rem] font-rosario font-bold'>Testimonios</a><span class='span'>|</span></li>
-                <li><a href="<?php echo get_site_url(); ?>/#klaritty" class='font-rosario font-bold'>Contáctanos</a>
+                <li><a href="<?php echo get_site_url(); ?>/#contacto" class='font-rosario font-bold'>Contáctanos</a>
                 </li>
                 <li><a href="https://wa.me/528141485521" target="_blank" class='font-rosario font-bold'>Reserva</a></li>
             </ul>

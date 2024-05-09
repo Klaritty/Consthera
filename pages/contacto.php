@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section class="bg-[#E8E0DC]">
+<section id='contacto' class="bg-[#E8E0DC]">
   <div class="px-5 py-[3rem] lg:max-w-[900px] lg:mx-auto">
     <div class="mb-[2rem]">
       <h1 class="text-center mb-[2rem] font-belleza text-[#0A2A45] text-[30px] font-normal md:text-[60px]">CONTÁCTANOS</h1>

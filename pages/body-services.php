@@ -3,7 +3,7 @@
 
 ?>
 
-<section class=' pt-[3rem] pb-[3rem] bg-[#e8eaee]''>
+<section class=' pt-[3rem] pb-[3rem] bg-[#e8eaee]'>
     <div id="grid-container" class="grid grid-cols-2 gap-y-10 container mx-auto justify-between">
         <!-- Tarjeta 1 -->
         <div class="rounded-lg p-2 text-center w-[70%] mx-auto col-span-2 md:col-span-1"
@@ -18,7 +18,7 @@
                 <a href="<?php echo esc_url(home_url('/constelacion-familiar-individual/')); ?>"
                     class="font-rosario no-underline bg-transparent border border-white text-white py-3 px-5 rounded-full text-sm mr-4">VER
                     MÁS</a>
-                <a href="<?php echo esc_url(home_url('/#/')); ?>"
+                <a href="https://wa.me/528141485521"  target="_blank"
                     class="font-rosario no-underline bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">RESERVA</a>
             </div>
         </div>
@@ -35,7 +35,7 @@
                 <a href="<?php echo esc_url(home_url('/constelacion-familiar-en-pareja/')); ?>"
                     class="font-rosario no-underline bg-transparent border border-white text-white  py-3 px-5 rounded-full text-sm mr-4">VER
                     MÁS</a>
-                <a href="<?php echo esc_url(home_url('/#/')); ?>"
+                <a href="https://wa.me/528141485521"  target="_blank"
                     class="font-rosario no-underline bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">RESERVA</a>
             </div>
         </div>
@@ -52,7 +52,7 @@
                 <a href="<?php echo esc_url(home_url('/sanacion-con-guias/')); ?>"
                     class="font-rosario no-underline bg-transparent border border-white text-white  py-3 px-5 rounded-full text-sm mr-4">VER
                     MÁS</a>
-                <a href="<?php echo esc_url(home_url('/#/')); ?>"
+                <a href="https://wa.me/528141485521"  target="_blank"
                     class="font-rosario no-underline bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">RESERVA</a>
             </div>
         </div>
@@ -69,7 +69,7 @@
                 <a href="<?php echo esc_url(home_url('/sanacion-akashica/')); ?>"
                     class="font-rosario no-underline bg-transparent border border-white text-white  py-3 px-5 rounded-full text-sm mr-4">VER
                     MÁS</a>
-                <a href="<?php echo esc_url(home_url('/#/')); ?>"
+                <a href="https://wa.me/528141485521"  target="_blank"
                     class="font-rosario no-underline bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">RESERVA</a>
             </div>
         </div>
@@ -87,7 +87,7 @@
                 <a href="<?php echo esc_url(home_url('/sanacion-con-maestros/')); ?>"
                     class="font-rosario no-underline bg-transparent border border-white text-white  py-3 px-5 rounded-full text-sm mr-4">VER
                     MÁS</a>
-                <a href="<?php echo esc_url(home_url('/#/')); ?>"
+                <a href="https://wa.me/528141485521"  target="_blank"
                     class="font-rosario no-underline bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">RESERVA</a>
             </div>
         </div>
@@ -105,7 +105,7 @@
                 <a href="<?php echo esc_url(home_url('/sanacion-de-fallecidos-y-contacto-con-ellos/')); ?>"
                     class="font-rosario no-underline bg-transparent border border-white text-white  py-3 px-5 rounded-full text-sm mr-4">VER
                     MÁS</a>
-                <a href="<?php echo esc_url(home_url('/#/')); ?>"
+                <a href="https://wa.me/528141485521"  target="_blank"
                     class="font-rosario no-underline bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">RESERVA</a>
             </div>
         </div>
@@ -123,7 +123,7 @@
                 <a href="<?php echo esc_url(home_url('/limpieza-energetica-de-casa-o-negocio/')); ?>"
                     class="font-rosario no-underline bg-transparent border border-white text-white  py-3 px-5 rounded-full text-sm mr-4">VER
                     MÁS</a>
-                <a href="<?php echo esc_url(home_url('/#/')); ?>"
+                <a href="https://wa.me/528141485521"  target="_blank"
                     class="font-rosario no-underline bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">RESERVA</a>
             </div>
         </div>
@@ -141,7 +141,7 @@
                 <a href="<?php echo esc_url(home_url('/limpieza-energetica-a-personas-animales-o-plantas/')); ?>"
                     class="font-rosario no-underline bg-transparent border border-white text-white  py-3 px-5 rounded-full text-sm mr-4">VER
                     MÁS</a>
-                <a href="<?php echo esc_url(home_url('/#/')); ?>"
+                <a href="https://wa.me/528141485521"  target="_blank"
                     class="font-rosario no-underline bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">RESERVA</a>
             </div>
         </div>
@@ -159,7 +159,7 @@
                 <a href="<?php echo esc_url(home_url('/limpieza-energetica-de-autos-transportes/')); ?>"
                     class="font-rosario no-underline bg-transparent border border-white text-white  py-3 px-5 rounded-full text-sm mr-4">VER
                     MÁS</a>
-                <a href="<?php echo esc_url(home_url('/#/')); ?>"
+                <a href="https://wa.me/528141485521"  target="_blank"
                     class="font-rosario no-underline bg-[#BD9062] py-3 px-5 rounded-full text-white text-[14px]">RESERVA</a>
             </div>
         </div>
