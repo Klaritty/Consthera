@@ -21,13 +21,13 @@ Template Name: idividual
     <main id="individual">
         <section id='home' class=' hidden md:block bg-cover bg-no-repeat bg-center' style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_hero_back_desk.jpg');"'>
             <div class='pb-[6rem] pt-[8rem] container mx-auto'>
-                <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>CONSTELACIÓN FAMILIAR INDIVIDUAL</h1>
+                <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>CONSTELACIÓN FAMILIAR <br> INDIVIDUAL</h1>
                 <div class=" w-[10%] mx-auto border-[#BD9062] border-t-2 mb-[2rem]"></div>
                 <div class='flex justify-center items-center'>
                     <p class='text-center mx-auto font-rosario text-[17px] md:text-[26px] w-[70%] text-white'>$600 MXN- 45 a 60 minutos</p>
                 </div>
                 <div class="buttons-services mt-[3rem]">
-                    <button class='font-rosario text-[14px] md:text-[18px]' style="letter-spacing: 2px">RESERVA UNA SESIÓN</button>
+                    <a href="https://wa.me/528141485521" target="_blank" class='font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[12px]' style="letter-spacing: 2px">RESERVA UNA SESIÓN</a>
                 </div>
             </div>
         </section>
@@ -60,10 +60,10 @@ Template Name: idividual
                 </div>
 
                 <!--video-->
-                <div class="bg-gray-600" style="width:100%; height: 20rem;">
+                <!-- <div class="bg-gray-600" style="width:100%; height: 20rem;">
                     <div>
                     <p class="text-center text-gray-50">Aquí puedes agregar tu video más tarde</p>
-                </div>
+                </div> -->
               </div>
             </div>
         </section>
