@@ -226,6 +226,7 @@ Template Name: idividual
           </a>
         </div>
       </section>
+      
       <?php include 'contacto.php'?>
         <!--Footer-->
         <?php include 'footer.php'?>

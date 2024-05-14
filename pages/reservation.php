@@ -19,8 +19,8 @@
                             UNA SESIÓN</a>
                     </div>
                 </div>
-                <div class='hidden md:block ml-[4rem] mr-[4rem]'>
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/pleca_vertical.png" alt="" class=' h-auto rounded-full' />
+                <div class='hidden md:block ml-[4rem] mr-[4rem] h-auto'>
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/pleca_vertical.png" alt="" class='  rounded-full' />
                     </div>
                 <div class="w-full md:w-[50%] ">
                     <div class='mt-[2rem] md:mt-0 flex items-center justify-center'>
