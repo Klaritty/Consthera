@@ -17,7 +17,7 @@ Template Name: pareja
 <body>
 <?php include 'header-custom.php'; ?>
 <main id="constelacion-pareja">
-        <section  class=' hidden md:block bg-cover bg-no-repeat bg-center' style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_hero_back_desk.jpg');"'>
+        <section  class=' hidden md:block bg-cover bg-no-repeat bg-center' style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/S_02_cover_back_desk.jpg');"'>
             <div class='pb-[6rem] pt-[8rem] container mx-auto'>
                 <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>CONSTELACIÓN FAMILIAR <br> EN PAREJA</h1>
                 <div class=" w-[10%] mx-auto border-[#BD9062] border-t-2 mb-[2rem]"></div>
@@ -111,7 +111,7 @@ Template Name: pareja
                             <div class='mt-[2rem] md:mt-0 flex items-center justify-center'>
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
                                    class='object-cover  w-[65%] md:w-[24%] absolute ' />
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_img_desk.jpg" alt="" class='w-[60%] h-auto rounded-full relative ' />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_2.jpg" alt="" class='w-[60%] h-auto rounded-full relative ' />
                             </div>
                       </div>
                     </div>
@@ -130,7 +130,7 @@ Template Name: pareja
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
                    class='object-cover  w-[30%]  md:w-[14%] absolute' />
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg" alt="facebook"
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_07.jpg" alt="facebook"
                    class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div class='flex flex-col items-center'>
@@ -156,7 +156,7 @@ Template Name: pareja
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
                    class='object-cover  w-[30%]  md:w-[14%] absolute' />
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg" alt="facebook"
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_08.jpg" alt="facebook"
                    class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div class='flex flex-col items-center'>
@@ -182,7 +182,7 @@ Template Name: pareja
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
                    class='object-cover  w-[30%]  md:w-[14%] absolute' />
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg" alt="facebook"
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_09.jpg" alt="facebook"
                    class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div class='flex flex-col items-center'>

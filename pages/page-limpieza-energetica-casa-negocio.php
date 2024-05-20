@@ -20,7 +20,7 @@ Template Name: energetica-casa
     <?php include 'header-custom.php'; ?>
     <main id="limpieza-energetica-casa-negocio">
         <section class=' hidden md:block bg-cover bg-no-repeat bg-center'
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_hero_back_desk.jpg');"'>
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/S_07_cover_back_desk.jpg');"'>
             <div class=' pb-[6rem] pt-[8rem] container mx-auto'>
             <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>LIMPIEZA ENERGÉTICA DE CASA Y NEGOCIO.
             </h1>
@@ -173,7 +173,7 @@ Template Name: energetica-casa
                     <div class=' lg:mt-[3rem] flex items-center justify-center'>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg"
                             alt="facebook" class='object-cover  w-[30%]  md:w-[14%] absolute' />
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg"
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_08.jpg"
                             alt="facebook" class='object-cover rounded-full w-[60%] relative' />
                     </div>
                     <div class='flex flex-col items-center'>
@@ -200,7 +200,7 @@ Template Name: energetica-casa
                     <div class=' lg:mt-[3rem] flex items-center justify-center'>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg"
                             alt="facebook" class='object-cover  w-[30%]  md:w-[14%] absolute' />
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg"
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_09.jpg"
                             alt="facebook" class='object-cover rounded-full w-[60%] relative' />
                     </div>
                     <div class='flex flex-col items-center'>

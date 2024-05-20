@@ -19,7 +19,7 @@ Template Name: idividual
 <body>
     <?php include 'header-custom.php'; ?>
     <main id="individual">
-        <section id='home' class=' hidden md:block bg-cover bg-no-repeat bg-center' style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_hero_back_desk.jpg');"'>
+        <section id='home' class=' hidden md:block bg-cover bg-no-repeat bg-center' style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/S_01_cover_back_desk.jpg');"'>
             <div class='pb-[6rem] pt-[8rem] container mx-auto'>
                 <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>CONSTELACIÓN FAMILIAR <br> INDIVIDUAL</h1>
                 <div class=" w-[10%] mx-auto border-[#BD9062] border-t-2 mb-[2rem]"></div>
@@ -123,7 +123,7 @@ Template Name: idividual
                             <div class='mt-[2rem] md:mt-0 flex items-center justify-center'>
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
                                    class='object-cover  w-[65%] md:w-[24%] absolute ' />
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_img_desk.jpg" alt="" class='w-[60%] h-auto rounded-full relative ' />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg" alt="" class='w-[60%] h-auto rounded-full relative ' />
                             </div>
                       </div>
                     </div>

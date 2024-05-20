@@ -20,7 +20,7 @@ Template Name: espiritual
     <?php include 'header-custom.php'; ?>
     <main id="sanacion-espiritual-guias">
         <section id='home' class=' hidden md:block bg-cover bg-no-repeat bg-center'
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_hero_back_desk.jpg');"'>
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/S_03_cover_back_desk.jpg');"'>
             <div class=' pb-[6rem] pt-[8rem] container mx-auto'>
             <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>SANACION CON GUÍAS</h1>
             <div class=" w-[10%] mx-auto border-[#BD9062] border-t-2 mb-[2rem]"></div>
@@ -64,11 +64,11 @@ Template Name: espiritual
                 </div>
 
                 <!--video-->
-                <div class="bg-gray-600" style="width:100%; height: 20rem;">
+                <!-- <div class="bg-gray-600" style="width:100%; height: 20rem;">
                     <div>
                         <p class="text-center text-gray-50">Aquí puedes agregar tu video más tarde</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -131,7 +131,7 @@ Template Name: espiritual
                         <div class='mt-[2rem] md:mt-0 flex items-center justify-center'>
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg"
                                 alt="facebook" class='object-cover  w-[65%] md:w-[24%] absolute ' />
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_img_desk.jpg"
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_3.jpg"
                                 alt="" class='w-[60%] h-auto rounded-full relative ' />
                         </div>
                     </div>
@@ -151,7 +151,7 @@ Template Name: espiritual
                     <div class=' lg:mt-[3rem] flex items-center justify-center'>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg"
                             alt="facebook" class='object-cover  w-[30%]  md:w-[14%] absolute' />
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg"
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_07.jpg"
                             alt="facebook" class='object-cover rounded-full w-[60%] relative' />
                     </div>
                     <div class='flex flex-col items-center'>
@@ -178,7 +178,7 @@ Template Name: espiritual
                     <div class=' lg:mt-[3rem] flex items-center justify-center'>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg"
                             alt="facebook" class='object-cover  w-[30%]  md:w-[14%] absolute' />
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg"
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_08.jpg"
                             alt="facebook" class='object-cover rounded-full w-[60%] relative' />
                     </div>
                     <div class='flex flex-col items-center'>
@@ -205,7 +205,7 @@ Template Name: espiritual
                     <div class=' lg:mt-[3rem] flex items-center justify-center'>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg"
                             alt="facebook" class='object-cover  w-[30%]  md:w-[14%] absolute' />
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg"
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_09.jpg"
                             alt="facebook" class='object-cover rounded-full w-[60%] relative' />
                     </div>
                     <div class='flex flex-col items-center'>

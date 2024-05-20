@@ -6,9 +6,9 @@
 <section class=' pt-[3rem] pb-[3rem] bg-[#e8eaee]'>
     <div id="grid-container" class="grid grid-cols-2 gap-y-10 container mx-auto justify-between">
         <!-- Tarjeta 1 -->
-        <div class="rounded-lg  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg'); background-size: cover; background-position: center;">
-            <div class="rounded-lg p-2 bg-gradient-to-b  from-transparent to-[#0A2A45] bg-cover">
+        <div class="  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_01.jpg'); background-size: cover; background-position: center;">
+            <div class=" p-2 ">
             <h3 class="text-[25px] pt-[10rem] text-white font-bold mb-4">Constelación familiar individual.</h3>
             <p class="text-white text-[14px] mb-2 leading-tight">Descubre una oportunidad única para liberarte de
                 bloqueos pasados
@@ -25,9 +25,9 @@
             </div>
         </div>
         <!-- Tarjeta 2 -->
-        <div class="rounded-lg  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_2.jpg'); background-size: cover; background-position: center;">
-            <div class="rounded-lg p-2 bg-gradient-to-b  from-transparent to-[#0A2A45] bg-cover">
+        <div class="  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_02.jpg'); background-size: cover; background-position: center;">
+            <div class=" p-2 ">
             <h3 class="text-[25px] pt-[10rem] text-white font-bold mb-4">Constelación familiar en pareja.</h3>
             <p class="text-white text-[14px] mb-4 leading-tight">Explora la sanación sistémica para parejas. Abordamos
                 juntos
@@ -45,9 +45,9 @@
         </div>
 
         <!-- Tarjeta 3 -->
-        <div class="rounded-lg  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_3.jpg'); background-size: cover; background-position: center;">
-            <div class="rounded-lg p-2 bg-gradient-to-b  from-transparent to-[#0A2A45] bg-cover">
+        <div class="  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_03.jpg'); background-size: cover; background-position: center;">
+            <div class=" p-2 ">
             <h3 class=" pt-[10rem] text-[25px] text-white font-bold mb-4">Sanación con guías.</h3>
             <p class="text-white text-[14px] mb-2 leading-tight">Encuentra respuestas y avanza hacia la plenitud.
                 Conectamos con
@@ -65,9 +65,9 @@
         </div>
 
         <!-- Tarjeta 4 -->
-        <div class="rounded-lg  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_4.jpg'); background-size: cover; background-position: center;">
-            <div class="rounded-lg p-2 bg-gradient-to-b  from-transparent to-[#0A2A45] bg-cover">
+        <div class="  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_04.jpg'); background-size: cover; background-position: center;">
+            <div class=" p-2 ">
             <h3 class="pt-[10rem] text-[25px] text-white font-bold mb-4">Sanación Akáshica.</h3>
             <p class="text-white text-[14px] mb-3 leading-tight">Conecta con programaciones que impactan tu presente,
                 provenientes
@@ -84,9 +84,9 @@
         </div>
 
         <!-- Tarjeta 5 -->
-        <div class="rounded-lg  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_5.jpg'); background-size: cover; background-position: center;">
-            <div class="rounded-lg p-2 bg-gradient-to-b  from-transparent to-[#0A2A45] bg-cover">
+        <div class="  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_05.jpg'); background-size: cover; background-position: center;">
+            <div class=" p-2 ">
             <h3 class="pt-[10rem] text-[25px] text-white font-bold mb-4">Sanación con maestros.</h3>
             <p class="text-white text-[14px] mb-4 leading-tight">Invocamos seres ascendidos para la sanación. Apoyan en
                 la cura de
@@ -104,9 +104,9 @@
         </div>
 
         <!-- Tarjeta 6 -->
-        <div class="rounded-lg  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_6.jpg'); background-size: cover; background-position: center;">
-            <div class="rounded-lg p-2 bg-gradient-to-b  from-transparent to-[#0A2A45] bg-cover">
+        <div class="  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_06.jpg'); background-size: cover; background-position: center;">
+            <div class=" p-2 ">
             <h3 class="pt-[10rem] text-[25px] text-white font-bold mb-4">Sanación de fallecidos y contacto con ellos.</h3>
             <p class="text-white text-[14px] mb-2 leading-tight">Guía a tus seres queridos fallecidos hacia la paz,
                 sanando y
@@ -124,9 +124,9 @@
         </div>
 
         <!-- Tarjeta 7 -->
-        <div class="rounded-lg  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg'); background-size: cover; background-position: center;">
-            <div class="rounded-lg p-2 bg-gradient-to-b  from-transparent to-[#0A2A45] bg-cover">
+        <div class="  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_07.jpg'); background-size: cover; background-position: center;">
+            <div class=" p-2 ">
             <h3 class="pt-[10rem] text-[25px] text-white font-bold mb-4">Limpieza energética de casa o negocio.</h3>
             <p class="text-white text-[14px] mb-2 leading-tight">¡Eleva la energía de tu hogar o negocio! Despídete de
                 la
@@ -144,9 +144,9 @@
         </div>
 
         <!-- Tarjeta 8 -->
-        <div class="rounded-lg text-center w-[70%] mx-auto col-span-2 md:col-span-1"
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg'); background-size: cover; background-position: center;">
-            <div class="rounded-lg p-2 bg-gradient-to-b  from-transparent to-[#0A2A45] bg-cover">
+        <div class=" text-center w-[70%] mx-auto col-span-2 md:col-span-1"
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_08.jpg'); background-size: cover; background-position: center;">
+            <div class=" p-2 ">
             <h3 class="pt-[10rem] text-[25px] text-white font-bold mb-4">Limpieza energética a personas, animales o plantas.
             </h3>
             <p class="text-white text-[14px] mb-4 leading-tight">Armonizamos chakras, sanamos emociones y promovemos
@@ -164,9 +164,9 @@
         </div>
 
         <!-- Tarjeta 9 -->
-        <div class="rounded-lg  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg'); background-size: cover; background-position: center;">
-            <div class="rounded-lg p-2 bg-gradient-to-b  from-transparent to-[#0A2A45] bg-cover">
+        <div class="  text-center w-[70%] mx-auto col-span-2 md:col-span-1"
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/servicios_thumb_img_09.jpg'); background-size: cover; background-position: center;">
+            <div class=" p-2 ">
             <h3 class="pt-[10rem] text-[25px] text-white font-bold mb-4">Limpieza energética de autos / transportes.</h3>
             <p class="text-white text-[14px] mb-2 leading-tight">Eliminamos las energías negativas y entidades que
                 podrían

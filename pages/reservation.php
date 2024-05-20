@@ -22,7 +22,7 @@
                 <div class='hidden md:block ml-[4rem] mr-[4rem] h-auto'>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/pleca_vertical.png" alt="" class='  rounded-full' />
                     </div>
-                <div class="w-full md:w-[50%] ">
+                <div class="w-full md:w-[50%] mb-[3rem]">
                     <div class='mt-[2rem] md:mt-0 flex items-center justify-center'>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
                     class='object-cover  w-[65%] md:w-[24%] absolute ' />

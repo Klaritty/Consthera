@@ -20,7 +20,7 @@ Template Name: energetica-personas-animales-plantas
     <?php include 'header-custom.php'; ?>
     <main id="limpieza-energetica-personas-animales-plantas">
         <section class=' hidden md:block bg-cover bg-no-repeat bg-center'
-            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_hero_back_desk.jpg');"'>
+            style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/S_08_cover_back_desk.jpg');"'>
             <div class=' pb-[6rem] pt-[8rem] container mx-auto'>
             <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>LIMPIEZA ENERGÉTICA A PERSONAS, ANIMALES Y PLANTAS
             </h1>
