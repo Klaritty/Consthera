@@ -3,7 +3,7 @@
 <div class='bg-cover bg-no-repeat bg-center pt-[3rem]' style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_back_desk.jpg');"">
     <div class='container mx-auto'>
         <h1 class='text-[#EBDBCE] font-semibold font-belleza text-[30px] md:text-[60px] text-center mb-[1.5rem]'>RESERVA UNA SESIÓN</h1>
-        <img class='w-[10rem] h-auto mx-auto pt-[1rem]'
+        <img class='w-[10rem] h-auto mx-auto pt-[1rem]' alt='pleca'
             src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg" />
         <div class=" mx-auto ">
             <div class="flex flex-col md:flex-row justify-center items-center  md:py-0 lg:py-0">
@@ -20,13 +20,13 @@
                     </div>
                 </div>
                 <div class='hidden md:block ml-[4rem] mr-[4rem] h-auto'>
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/pleca_vertical.png" alt="" class='  rounded-full' />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/pleca_vertical.png" alt="pleca" class='  rounded-full' />
                     </div>
                 <div class="w-full md:w-[50%] mb-[3rem]">
                     <div class='mt-[2rem] md:mt-0 flex items-center justify-center'>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
                     class='object-cover  w-[65%] md:w-[24%] absolute ' />
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_img_desk.jpg" alt="" class='w-[60%] h-auto rounded-full relative ' />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_img_desk.jpg" alt="reserva" class='w-[60%] h-auto rounded-full relative ' />
                     </div>
                 </div>
             </div>

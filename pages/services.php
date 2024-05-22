@@ -4,16 +4,18 @@
     <h1 class='text-[#0A2A45] font-semibold font-belleza  text-[30px] md:text-[60px]  text-center'>
         Nuestros Servicios
     </h1>
-    <img class='w-[10rem] h-auto mx-auto pt-[2rem]'
+    <img class='w-[10rem] h-auto mx-auto pt-[2rem]' alt='pleca'
         src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg" />
     <div
         class="lg:max-w-[1020px]  grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-8 lg:container lg:mx-auto">
         <!-- lg:card--1 -->
         <div class="lg:card flex  justify-center flex-col items-center  md:py-0 lg:py-0">
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="Constelación familiar
+                        individual"
                     class='object-cover  w-[30%]  md:w-[17%] absolute' />
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg" alt="facebook"
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg" alt="Constelación familiar
+                        individual"
                     class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div class='flex flex-col items-center'>
@@ -39,9 +41,11 @@
         <!-- lg:card--2 -->
         <div class="lg:card flex  justify-center flex-col items-center  md:py-0 lg:py-0">
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="Constelación familiar
+                        en pareja"
                     class='object-cover  w-[30%]  md:w-[17%] absolute' />
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_2.jpg" alt="facebook"
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_2.jpg" alt="Constelación familiar
+                        en pareja"
                     class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div class='flex flex-col items-center'>
@@ -66,9 +70,11 @@
         <!-- lg:card--3 -->
         <div class="lg:card flex  justify-center flex-col items-center  md:py-0 lg:py-0">
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="Sanación espiritual
+                        con guías"
                     class='object-cover  w-[30%]  md:w-[17%] absolute' />
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_3.jpg" alt="facebook"
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_3.jpg" alt="Sanación espiritual
+                        con guías"
                     class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div>
@@ -96,9 +102,9 @@
         <!-- lg:card--4 -->
         <div class="lg:card flex  justify-center flex-col items-center  md:py-0 lg:py-0">
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="Akáshica"
                     class='object-cover  w-[30%]  md:w-[17%] absolute' />
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_4.jpg" alt="facebook"
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_4.jpg" alt="Akáshica"
                     class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div class='flex flex-col items-center'>
@@ -123,9 +129,9 @@
         <!-- lg:card--5 -->
         <div class="lg:card flex  justify-center flex-col items-center  md:py-0 lg:py-0">
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="sanacion con maestros"
                     class='object-cover  w-[30%]  md:w-[17%] absolute' />
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_5.jpg" alt="facebook"
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_5.jpg" alt="sanacion con maestros"
                     class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div class='flex flex-col items-center'>
@@ -149,9 +155,11 @@
         <!-- lg:card--6 -->
         <div class="lg:card flex  justify-center flex-col items-center  md:py-0 lg:py-0">
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt=" Sanación de fallecidos y
+                        contacto con ellos"
                     class='object-cover  w-[30%]  md:w-[17%] absolute' />
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_6.jpg" alt="facebook"
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_6.jpg" alt=" Sanación de fallecidos y
+                        contacto con ellos"
                     class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div class='flex flex-col items-center'>
@@ -177,7 +185,7 @@
 
     
 
-    <img class='w-[10rem] h-auto mx-auto pt-[2rem]'
+    <img class='w-[10rem] h-auto mx-auto pt-[2rem]' alt='pleca'
         src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg" />
     <div class="buttons-services mt-[3rem]">
         <a href='<?php echo esc_url( home_url( '/nuestros-servicios/' ) ); ?>'

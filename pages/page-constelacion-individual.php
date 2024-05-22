@@ -116,22 +116,22 @@ gtag('config', 'G-36VC4346Y2');
                 <h1 class='mb-[2rem] text-[#0A2A45] font-belleza text-[30px] md:text-[60px] text-center'>REVIEWS</h1>
                 <div class="mb-[2rem]">
                     <div class="flex flex-col gap-[0.4rem]">
-                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                         <p class="font-rosario  italic font text-center px-[3rem]">
                         Trabajar en mis creencias está muy cañón, invertir en cambiar creencias es lo mejor,
                         gracias por estar acompañándome en este camino
                         </p>
-                        <img class="transform rotate-180" src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                        <img class="transform rotate-180" src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Patricia</p>
                 </div>
                 <div>
                     <div class="flex flex-col gap-[1rem]">
-                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                         <p class="font-rosario  italic font text-center px-[3rem]">
                             Me he sentido muy bien haciendo esta terapia.
                         </p>
-                        <img class="transform rotate-180" src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                        <img class="transform rotate-180" src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Patricia</p>
                 </div>
@@ -141,7 +141,7 @@ gtag('config', 'G-36VC4346Y2');
             <div class='bg-cover bg-no-repeat bg-center py-[3rem]' style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_back_desk.jpg');"">
             <div class='container mx-auto'>
                 <h1 class='text-[#EBDBCE] font-semibold font-belleza text-[30px] md:text-[60px] text-center mb-[1.5rem]'>RESERVA UNA SESIÓN AHORA</h1>
-                <img class='w-[10rem] h-auto mx-auto pt-[1rem]'
+                <img class='w-[10rem] h-auto mx-auto pt-[1rem]' alt='cosnthera'
                      src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg" />
                 <div class=" mx-auto ">
                     <div class="flex flex-col md:flex-row justify-center items-center  md:py-0 lg:py-0">
@@ -160,13 +160,13 @@ gtag('config', 'G-36VC4346Y2');
                             </div>
                         </div>
                         <div class='hidden md:block ml-[4rem] mr-[4rem]'>
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/pleca_vertical.png" alt="" class=' h-auto rounded-full' />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/pleca_vertical.png" alt="pleca" class=' h-auto rounded-full' />
                         </div>
                         <div class="w-full md:w-[50%] ">
                             <div class='mt-[2rem] md:mt-0 flex items-center justify-center'>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="reserva"
                                    class='object-cover  w-[65%] md:w-[24%] absolute ' />
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg" alt="" class='w-[60%] h-auto rounded-full relative ' />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_1.jpg" alt="servicio1" class='w-[60%] h-auto rounded-full relative ' />
                             </div>
                       </div>
                     </div>
@@ -178,14 +178,14 @@ gtag('config', 'G-36VC4346Y2');
         <h1 class='text-[#0A2A45] font-semibold font-belleza  text-[30px] md:text-[60px]  text-center'>
           Nuestros Servicios
         </h1>
-        <img class='w-[10rem] h-auto mx-auto pt-[2rem]'
+        <img class='w-[10rem] h-auto mx-auto pt-[2rem]' alt='pleca'
              src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg" />
         <div class="lg:max-w-[1020px]  grid grid-cols-1 md:grid-cols-3 gap-8 lg:container lg:mx-auto">
           <div class="lg:card flex  justify-center flex-col items-center  md:py-0 lg:py-0">
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="servicio4"
                    class='object-cover  w-[30%]  md:w-[14%] absolute' />
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_4.jpg" alt="facebook"
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_4.jpg" alt="servicio4"
                    class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div class='flex flex-col items-center'>
@@ -209,9 +209,9 @@ gtag('config', 'G-36VC4346Y2');
 
           <div class="lg:card flex  justify-center flex-col items-center  md:py-0 lg:py-0">
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="servicio5"
                    class='object-cover  w-[30%]  md:w-[14%] absolute' />
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_5.jpg" alt="facebook"
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_5.jpg" alt="servicio5"
                    class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div class='flex flex-col items-center'>
@@ -235,9 +235,9 @@ gtag('config', 'G-36VC4346Y2');
 
           <div class="lg:card flex  justify-center flex-col items-center  md:py-0 lg:py-0">
             <div class=' lg:mt-[3rem] flex items-center justify-center'>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="facebook"
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg" alt="servicio6"
                    class='object-cover  w-[30%]  md:w-[14%] absolute' />
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_6.jpg" alt="facebook"
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_serv_6.jpg" alt="servicio6"
                    class='object-cover rounded-full w-[60%] relative' />
             </div>
             <div class='flex flex-col items-center'>
@@ -261,8 +261,8 @@ gtag('config', 'G-36VC4346Y2');
           </div>
 
         </div>
-        <img class='w-[10rem] h-auto mx-auto pt-[2rem]'
-             src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg" />
+        <img class='w-[10rem] h-auto mx-auto pt-[2rem]' alt='pleca'
+             src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"  />
         <div class="buttons-services mt-[3rem]">
           <a href='<?php echo esc_url( home_url( '/nuestros-servicios/' ) ); ?>'
              class='font-rosario bg-[#BD9062] no-underline py-2 px-5 rounded-full text-white text-[14px]'>MÁS SERVICIOS

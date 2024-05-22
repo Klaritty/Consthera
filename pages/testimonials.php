@@ -1,7 +1,7 @@
 <section id="testimonios" class='bg-[#E8E0DC]'>
     <div class='px-5 py-[3rem] container mx-auto'>
         <h1 class='mb-[1rem] text-[#0A2A45] font-bold font-belleza  text-[30px] md:text-[60px] text-center'>Testimonios</h1>
-        <img class='w-[10rem] h-auto mx-auto ' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"/>
+        <img class='w-[10rem] h-auto mx-auto ' alt='pleca'  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"/>
 <!--        ControlsDesktop-->
         <div class="controls-container-swiper w-full flex justify-between hidden md:flex">
             <div class="select-prev swiper-button-prev"></div>
@@ -54,9 +54,9 @@
                 foreach ($slides as $slide) {
                     echo '<div class="swiper-slide">';
                     echo '<div class="slide-content">';
-                    echo '<img class="" src="' . $pleca . '" alt="'  . '" >';
+                    echo '<img class="" src="' . $pleca . '" alt="pleca'  . '" >';
                     echo '<p class=" flex justify-center font-rosario italic font items-center md:h-[100px]">' . $slide['testimony'] . '<p>';
-                    echo '<img class="transform rotate-180" src="' . $plecaCierre . '" alt="'  . '" >';
+                    echo '<img class="transform rotate-180" src="' . $plecaCierre . '" alt="pleca'  . '" >';
                     echo '<div  class="mt-[3rem]">';
                     // echo '<img class="w-[20%] mx-auto mb-[2rem] md:w-[10%] image-perfil" src="' . $slide['imagen'] . '" alt="'  . '" >';
                     echo '<p>' . $slide['name'] . '</p>';
@@ -68,7 +68,7 @@
             </div>
             
         </div>
-        <img class='w-[10rem] h-auto mx-auto  md:mt-[3rem]' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"/>
+        <img class='w-[10rem] h-auto mx-auto  md:mt-[3rem]' alt='pleca' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"/>
 <!--        ControlsMobile-->
         <div class='flex justify-center mt-[3rem] gap-3 md:hidden'>
             <div class="select-prev swiper-button-prev-edit"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="text-white">

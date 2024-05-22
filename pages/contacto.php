@@ -5,7 +5,7 @@
   <div class="px-5 py-[3rem] lg:max-w-[900px] lg:mx-auto">
     <div class="mb-[2rem]">
       <h1 class="text-center mb-[2rem] font-belleza text-[#0A2A45] text-[30px] font-normal md:text-[60px]">CONTÁCTANOS</h1>
-      <img class='w-[10rem] h-auto mx-auto' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"/>
+      <img class='w-[10rem] h-auto mx-auto' alt='pleca' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"/>
     </div>
     <div class="flex flex-col md:flex-row gap-[1rem] lg:gap-[3rem] md:h-[500px]">
       <div class="md:pt-[4rem] px-[2rem] flex flex-col mb-[2rem] md:w-1/2 bg-cover bg-no-repeat bg-center md:bg-[url('http://159.223.204.188/wp-content/themes/Consthera/assets/images/contact_frame.png')]">
