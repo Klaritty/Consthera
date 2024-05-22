@@ -6,14 +6,57 @@ Template Name: energetica-personas-animales-plantas
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/tailwind_output.css">
-    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/formStyles.css">
-    <link rel="stylesheet"
-        href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/node_modules/swiper/swiper-bundle.min.css">
-    <?php wp_head(); ?>
+<meta charset="<?php bloginfo('charset'); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Meta Description -->
+<meta name="description" content="Descripción breve y atractiva de tu sitio web que describa de qué trata tu página principal.">
+
+<!-- Meta Keywords -->
+<meta name="keywords" content="palabras, clave, relacionadas, con, tu, contenido, separadas, por, comas">
+
+<!-- Author -->
+<meta name="author" content="Tu Nombre o Nombre de tu Empresa">
+
+<!-- Open Graph Meta Tags para Redes Sociales -->
+<meta property="og:title" content="Cosnthera">
+<meta property="og:description" content="Descripción breve de tu página para redes sociales">
+<meta property="og:type" content="website">
+<meta property="og:url" content="<?php echo get_permalink(); ?>">
+<meta property="og:image" content="URL_de_la_imagen_destacada">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cosnthera">
+<meta name="twitter:description" content="Descripción breve de tu página para Twitter">
+<meta name="twitter:image" content="URL_de_la_imagen_destacada">
+
+<!-- Google Verification -->
+<meta name="google-site-verification" content="tu_codigo_de_verificacion_de_google">
+
+<!-- Enlaces Canonical -->
+<link rel="canonical" href="<?php echo get_permalink(); ?>">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-36VC4346Y2"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'G-36VC4346Y2');
+</script>
+
+<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+<link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/tailwind_output.css">
+<link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/formStyles.css">
+<link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/node_modules/swiper/swiper-bundle.min.css">
+
+<!-- Title -->
+<title>Consthera</title>
+
+<?php wp_head(); ?>
 </head>
 
 <body>
@@ -22,11 +65,13 @@ Template Name: energetica-personas-animales-plantas
         <section class=' hidden md:block bg-cover bg-no-repeat bg-center'
             style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/S_08_cover_back_desk.jpg');"'>
             <div class=' pb-[6rem] pt-[8rem] container mx-auto'>
-            <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>LIMPIEZA ENERGÉTICA A PERSONAS, ANIMALES Y PLANTAS
+            <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>LIMPIEZA ENERGÉTICA A
+                PERSONAS, ANIMALES Y PLANTAS
             </h1>
             <div class=" w-[10%] mx-auto border-[#BD9062] border-t-2 mb-[2rem]"></div>
             <div class='flex justify-center items-center'>
-                <p class='text-center mx-auto font-rosario text-[17px] md:text-[26px] w-[70%] text-white'>$1200 MXN- 45 a
+                <p class='text-center mx-auto font-rosario text-[17px] md:text-[26px] w-[70%] text-white'>$1200 MXN- 45
+                    a
                     60 minutos</p>
             </div>
             <div class="buttons-services mt-[3rem]">
@@ -39,23 +84,32 @@ Template Name: energetica-personas-animales-plantas
         <section id='home'>
             <div class='py-[4rem] px-4 md:w-[50%] mx-auto'>
                 <div class='mb-[2.5rem] flex flex-col gap-[3rem]'>
-                    <p class='text-justify font-rosario'>Evaluamos a personas, animales y plantas, ofreciendo una renovación completa a nivel físico, mental y emocional. Ya sea de manera presencial u online, comenzamos alineando los chakras y detectando cualquier proceso emocional pendiente.</p>
+                    <p class='text-justify font-rosario'>Evaluamos a personas, animales y plantas, ofreciendo una
+                        renovación completa a nivel físico, mental y emocional. Ya sea de manera presencial u online,
+                        comenzamos alineando los chakras y detectando cualquier proceso emocional pendiente.</p>
                     <p class='font-rosario text-justify'>
-                    Nos dedicamos a limpiar y alinear los chakras de cada individuo, animal o planta, permitiendo que fluya la energía vital de manera armoniosa. Además, identificamos y abordamos los procesos emocionales pendientes.
+                        Nos dedicamos a limpiar y alinear los chakras de cada individuo, animal o planta, permitiendo
+                        que fluya la energía vital de manera armoniosa. Además, identificamos y abordamos los procesos
+                        emocionales pendientes.
                     </p>
                 </div>
 
                 <div class='mb-[2.5rem] py-[2rem] flex flex-col items-center'
                     style="border-bottom: 1px solid black; border-top: 1px solid black">
                     <p class='font-rosario text-justify'>
-                    “Armonizamos chakras, liberamos emociones pendientes y fomentamos el bienestar en todos los niveles para personas, animales y plantas”.
+                        “Armonizamos chakras, liberamos emociones pendientes y fomentamos el bienestar en todos los
+                        niveles para personas, animales y plantas”.
                     </p>
                 </div>
 
                 <div class='pb-[4rem]  flex flex-col gap-[3rem]'>
-                    <p class='font-rosario text-justify'>Abre la puerta a una sensación de bienestar en tu cuerpo, mente y espíritu, experimenta una transformación profunda que te lleva hacia la plenitud. ¡No esperes más para revitalizar tu ser y mejorar tu calidad de vida!</p>
+                    <p class='font-rosario text-justify'>Abre la puerta a una sensación de bienestar en tu cuerpo, mente
+                        y espíritu, experimenta una transformación profunda que te lleva hacia la plenitud. ¡No esperes
+                        más para revitalizar tu ser y mejorar tu calidad de vida!</p>
 
-                    <p class="font-rosario text-justify">Conviértete en la mejor versión de ti mismo y brinda a tus seres queridos, animales y plantas el regalo de la armonía y el bienestar! Contáctanos hoy mismo para reservar tu sesión de Limpieza Energética.</p>
+                    <p class="font-rosario text-justify">Conviértete en la mejor versión de ti mismo y brinda a tus
+                        seres queridos, animales y plantas el regalo de la armonía y el bienestar! Contáctanos hoy mismo
+                        para reservar tu sesión de Limpieza Energética.</p>
                 </div>
 
                 <!--video-->
@@ -74,7 +128,8 @@ Template Name: energetica-personas-animales-plantas
                     <div class="flex flex-col gap-[0.4rem]">
                         <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
                         <p class="font-rosario  italic font text-center px-[3rem]">
-                        "Mi mamá está muy agradecida contigo por la limpieza que le hiciste la semana pasada, ya puede dormir mejor” 
+                            "Mi mamá está muy agradecida contigo por la limpieza que le hiciste la semana pasada, ya
+                            puede dormir mejor”
                         </p>
                         <img class="transform rotate-180"
                             src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
@@ -85,7 +140,7 @@ Template Name: energetica-personas-animales-plantas
                     <div class="flex flex-col gap-[1rem]">
                         <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
                         <p class="font-rosario  italic font text-center px-[3rem]">
-                        Firu está mucho mejor! salió muy bien en sus exámenes, mil gracias"
+                            Firu está mucho mejor! salió muy bien en sus exámenes, mil gracias"
                         </p>
                         <img class="transform rotate-180"
                             src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
@@ -110,9 +165,11 @@ Template Name: energetica-personas-animales-plantas
                                 LIMPIEZA ENERGÉTICA A PERSONAS, ANIMALES Y PLANTAS
                             </h2>
                             <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[1.5rem]">
-                            Alineamos chakras, integramos emociones pendientes y promovemos el bienestar físico, mental y emocional en personas, animales y plantas.
+                                Alineamos chakras, integramos emociones pendientes y promovemos el bienestar físico,
+                                mental y emocional en personas, animales y plantas.
                             </p>
-                            <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[2rem]">$1200 MXN- 45 a 60 minutos | Terapeuta Alma Solís</p>
+                            <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[2rem]">$1200 MXN- 45 a
+                                60 minutos | Terapeuta Alma Solís</p>
                             <a href="https://wa.me/528141485521" target="_blank"
                                 class='font-rosario bg-[#BD9062] py-3 px-5 no-underline rounded-full text-white text-[14px]'
                                 style="letter-spacing: 1px">RESERVA AHORA</a>
@@ -142,7 +199,7 @@ Template Name: energetica-personas-animales-plantas
             <img class='w-[10rem] h-auto mx-auto pt-[2rem]'
                 src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg" />
             <div class="lg:max-w-[1020px]  grid grid-cols-1 md:grid-cols-3 gap-8 lg:container lg:mx-auto">
-               
+
 
                 <div class="lg:card flex  justify-center flex-col items-center  md:py-0 lg:py-0">
                     <div class=' lg:mt-[3rem] flex items-center justify-center'>
@@ -181,11 +238,13 @@ Template Name: energetica-personas-animales-plantas
                         <div class="md:p-4 text-center w-[100%] md:w-[75%] lg:w-full md:h-[12rem] ">
                             <h3
                                 class="text-[#0A2A45]  font-rosario text-[20px] lg:text-[28px] lg:text-xl font-semibold mb-2 lg:mt-[1rem] lg:mb-[1rem]">
-                                Sanación con <br> maestros.</h3> </h3>
+                                Sanación con <br> maestros.</h3>
+                            </h3>
                             <p class="text-[#0A2A45] font-rosario text-[12px] lg:text-[14px]">
-                            Invocamos seres ascendidos,
-                  gracias a ello podemos apoyar en la cura de patologías como salud, amor, comunicación, economía
-                  y unidad familiar.
+                                Invocamos seres ascendidos,
+                                gracias a ello podemos apoyar en la cura de patologías como salud, amor, comunicación,
+                                economía
+                                y unidad familiar.
                             </p>
                         </div>
                         <div class='pt-[1rem] md:pt-[3rem] flex flex-row'>

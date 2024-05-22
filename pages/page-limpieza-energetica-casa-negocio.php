@@ -6,14 +6,57 @@ Template Name: energetica-casa
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/tailwind_output.css">
-    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/formStyles.css">
-    <link rel="stylesheet"
-        href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/node_modules/swiper/swiper-bundle.min.css">
-    <?php wp_head(); ?>
+<meta charset="<?php bloginfo('charset'); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Meta Description -->
+<meta name="description" content="Descripción breve y atractiva de tu sitio web que describa de qué trata tu página principal.">
+
+<!-- Meta Keywords -->
+<meta name="keywords" content="palabras, clave, relacionadas, con, tu, contenido, separadas, por, comas">
+
+<!-- Author -->
+<meta name="author" content="Tu Nombre o Nombre de tu Empresa">
+
+<!-- Open Graph Meta Tags para Redes Sociales -->
+<meta property="og:title" content="Cosnthera">
+<meta property="og:description" content="Descripción breve de tu página para redes sociales">
+<meta property="og:type" content="website">
+<meta property="og:url" content="<?php echo get_permalink(); ?>">
+<meta property="og:image" content="URL_de_la_imagen_destacada">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cosnthera">
+<meta name="twitter:description" content="Descripción breve de tu página para Twitter">
+<meta name="twitter:image" content="URL_de_la_imagen_destacada">
+
+<!-- Google Verification -->
+<meta name="google-site-verification" content="tu_codigo_de_verificacion_de_google">
+
+<!-- Enlaces Canonical -->
+<link rel="canonical" href="<?php echo get_permalink(); ?>">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-36VC4346Y2"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'G-36VC4346Y2');
+</script>
+
+<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+<link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/tailwind_output.css">
+<link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/formStyles.css">
+<link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/node_modules/swiper/swiper-bundle.min.css">
+
+<!-- Title -->
+<title>Consthera</title>
+
+<?php wp_head(); ?>
 </head>
 
 <body>
@@ -22,11 +65,13 @@ Template Name: energetica-casa
         <section class=' hidden md:block bg-cover bg-no-repeat bg-center'
             style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/S_07_cover_back_desk.jpg');"'>
             <div class=' pb-[6rem] pt-[8rem] container mx-auto'>
-            <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>LIMPIEZA ENERGÉTICA DE CASA Y NEGOCIO.
+            <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>LIMPIEZA ENERGÉTICA DE
+                CASA Y NEGOCIO.
             </h1>
             <div class=" w-[10%] mx-auto border-[#BD9062] border-t-2 mb-[2rem]"></div>
             <div class='flex justify-center items-center'>
-                <p class='text-center mx-auto font-rosario text-[17px] md:text-[26px] w-[70%] text-white'>$1700 MXN- 90 a
+                <p class='text-center mx-auto font-rosario text-[17px] md:text-[26px] w-[70%] text-white'>$1700 MXN- 90
+                    a
                     120 minutos</p>
             </div>
             <div class="buttons-services mt-[3rem]">
@@ -39,22 +84,33 @@ Template Name: energetica-casa
         <section id='home'>
             <div class='py-[4rem] px-4 md:w-[50%] mx-auto'>
                 <div class='mb-[2.5rem] flex flex-col gap-[3rem]'>
-                    <p class='text-justify font-rosario'>Ofrecemos una solución integral para liberar tu espacio de energías negativas y entidades no deseadas. Simplemente envíanos un croquis de la propiedad, dirección y procederemos a limpiar el lugar energéticamente a distancia, ya sea que estés presente o no.</p>
+                    <p class='text-justify font-rosario'>Ofrecemos una solución integral para liberar tu espacio de
+                        energías negativas y entidades no deseadas. Simplemente envíanos un croquis de la propiedad,
+                        dirección y procederemos a limpiar el lugar energéticamente a distancia, ya sea que estés
+                        presente o no.</p>
                     <p class='font-rosario text-justify'>
-                    Nuestra técnica especializada elimina cualquier energía estancada que pueda estar afectando la armonía de tu hogar o negocio. No importa si sientes una vibra extraña en el ambiente o experimentas ruidos inexplicables, estamos aquí para ayudarte.
+                        Nuestra técnica especializada elimina cualquier energía estancada que pueda estar afectando la
+                        armonía de tu hogar o negocio. No importa si sientes una vibra extraña en el ambiente o
+                        experimentas ruidos inexplicables, estamos aquí para ayudarte.
                     </p>
                 </div>
 
                 <div class='mb-[2.5rem] py-[2rem] flex flex-col items-center'
                     style="border-bottom: 1px solid black; border-top: 1px solid black">
                     <p class='font-rosario text-justify'>
-                    "Renueva la energía de tu hogar. Elimina las energías negativas y estancadas para crear un ambiente armonioso y lleno de vitalidad."
+                        "Renueva la energía de tu hogar. Elimina las energías negativas y estancadas para crear un
+                        ambiente armonioso y lleno de vitalidad."
                     </p>
                 </div>
 
                 <div class='pb-[4rem]  flex flex-col gap-[3rem]'>
-                    <p class='font-rosario text-justify'>Comienza a entrar a tu hogar o negocio y sentir una sensación de ligereza y claridad en el aire. Experimenta una transformación que te permite disfrutar de un ambiente positivo y lleno de vitalidad. ¡Deja que la energía positiva fluya libremente en tu espacio!</p>
-                    <p class="font-rosario text-justify">No esperes más para crear un entorno armónico y vibrante en tu casa o negocio. ¡Contáctanos hoy mismo para programar tu sesión de Limpieza Energética y comienza a disfrutar de los beneficios de un espacio positivo.</p>
+                    <p class='font-rosario text-justify'>Comienza a entrar a tu hogar o negocio y sentir una sensación
+                        de ligereza y claridad en el aire. Experimenta una transformación que te permite disfrutar de un
+                        ambiente positivo y lleno de vitalidad. ¡Deja que la energía positiva fluya libremente en tu
+                        espacio!</p>
+                    <p class="font-rosario text-justify">No esperes más para crear un entorno armónico y vibrante en tu
+                        casa o negocio. ¡Contáctanos hoy mismo para programar tu sesión de Limpieza Energética y
+                        comienza a disfrutar de los beneficios de un espacio positivo.</p>
                 </div>
 
                 <!--video-->
@@ -73,7 +129,7 @@ Template Name: energetica-casa
                     <div class="flex flex-col gap-[0.4rem]">
                         <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
                         <p class="font-rosario  italic font text-center px-[3rem]">
-                        "Los ruidos raros en mi casa dejaron de sonar" 
+                            "Los ruidos raros en mi casa dejaron de sonar"
                         </p>
                         <img class="transform rotate-180"
                             src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
@@ -84,7 +140,7 @@ Template Name: energetica-casa
                     <div class="flex flex-col gap-[1rem]">
                         <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
                         <p class="font-rosario  italic font text-center px-[3rem]">
-                        "Gracias por la limpieza, poco a poco los clientes van subiendo" 
+                            "Gracias por la limpieza, poco a poco los clientes van subiendo"
                         </p>
                         <img class="transform rotate-180"
                             src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
@@ -109,9 +165,11 @@ Template Name: energetica-casa
                                 LIMPIEZA ENERGÉTICA DE CASA Y NEGOCIO.
                             </h2>
                             <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[1.5rem]">
-                            Transformamos la energía de tu hogar o negocio, te ayudamos a liberarte de energías negativas, entidades y emociones estancadas para crear un espacio armonioso y vibrante. 
+                                Transformamos la energía de tu hogar o negocio, te ayudamos a liberarte de energías
+                                negativas, entidades y emociones estancadas para crear un espacio armonioso y vibrante.
                             </p>
-                            <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[2rem]">$1700 MXN- 90 a 120 minutos | Terapeuta Alma Solís</p>
+                            <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[2rem]">$1700 MXN- 90 a
+                                120 minutos | Terapeuta Alma Solís</p>
                             <a href="https://wa.me/528141485521" target="_blank"
                                 class='font-rosario bg-[#BD9062] py-3 px-5 no-underline rounded-full text-white text-[14px]'
                                 style="letter-spacing: 1px">RESERVA AHORA</a>
@@ -152,11 +210,13 @@ Template Name: energetica-casa
                         <div class="md:p-4 text-center w-[100%] md:w-[75%] lg:w-full md:h-[12rem] ">
                             <h3
                                 class="text-[#0A2A45]  font-rosario text-[20px] lg:text-[28px] lg:text-xl font-semibold mb-2 lg:mt-[1rem] lg:mb-[1rem]">
-                                Sanación con <br> maestros.</h3> </h3>
+                                Sanación con <br> maestros.</h3>
+                            </h3>
                             <p class="text-[#0A2A45] font-rosario text-[12px] lg:text-[14px]">
-                            Invocamos seres ascendidos,
-                  gracias a ello podemos apoyar en la cura de patologías como salud, amor, comunicación, economía
-                  y unidad familiar.
+                                Invocamos seres ascendidos,
+                                gracias a ello podemos apoyar en la cura de patologías como salud, amor, comunicación,
+                                economía
+                                y unidad familiar.
                             </p>
                         </div>
                         <div class='pt-[1rem] md:pt-[3rem] flex flex-row'>

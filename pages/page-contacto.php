@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Services
+Template Name: Contacto
 */
 ?>
 <!DOCTYPE html>
@@ -60,20 +60,17 @@ gtag('config', 'G-36VC4346Y2');
 <body>
 <?php include 'header-custom.php'; ?>
 <main id="home">
-<!-- Hero -->
-<?php include 'hero-services.php'; ?>
-<!-- servicios -->
-<?php include 'body-services.php'; ?>
-<!--Reservatiom-->
-<?php include 'reservation.php'?>
+<!-- Hero-->
+<?php include 'hero-contacto.php'; ?>
 <!--contacto-->
 <?php include 'contacto.php'?>
+<!--Reservatiom-->
+<?php include 'reservation.php'?>
 <!--Footer-->
 <?php include 'footer.php'?>
-<?php wp_footer(); ?>
 <!--button to up -->
 <?php include 'scroll-to-up.php'?>
-
+<?php wp_footer(); ?>
 </body>
 </html>
 
