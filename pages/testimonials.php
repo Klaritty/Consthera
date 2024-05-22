@@ -41,7 +41,7 @@
                     ),
                     array(
                         'id' => 4,
-                        'testimony' => 'Conecto mucho con Alma y me siento muy inspirada, agradezco su labor .
+                        'testimony' => 'Conecto mucho con Alma y me siento muy inspirada, agradezco su labor.
                         ',
                         'name' => 'Melanie.',
                         

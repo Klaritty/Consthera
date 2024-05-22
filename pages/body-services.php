@@ -35,7 +35,7 @@
                 crecimiento y la armonía.</p>
             <h2 class="text-lg text-white font-semibold mb-3">$900 MXN- 60 a 90 minutos.</h2>
             <div class="flex items-center justify-center p-[1.15rem]">
-                <a href="<?php echo esc_url(home_url('/constelacion-familiar-individual/')); ?>"
+                <a href="<?php echo esc_url(home_url('/constelacion-familiar-en-pareja/')); ?>"
                     class="font-rosario no-underline bg-transparent border border-white text-white py-3 px-5 rounded-full text-sm mr-4">VER
                     MÁS</a>
                 <a href="https://wa.me/528141485521"  target="_blank"

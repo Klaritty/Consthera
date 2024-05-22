@@ -152,7 +152,7 @@ gtag('config', 'G-36VC4346Y2');
                                 SANACIÓN DE FALLECIDOS Y CONTACTO CON ELLOS.
                             </h2>
                             <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[1.5rem]">
-                            IRecuperamos la sanación y te ayudamos a resolver los pendiente con tus seres queridos fallecidos, guiándolos hacia la luz del más allá para una transición pacífica. 
+                            Recuperamos la sanación y te ayudamos a resolver los pendiente con tus seres queridos fallecidos, guiándolos hacia la luz del más allá para una transición pacífica. 
                             </p>
                             <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[2rem]">$600 MXN - 45 a
                             $1800 MXN- 45 a 60 minutos | Terapeuta Alma Solís</p>

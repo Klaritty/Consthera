@@ -41,7 +41,7 @@
                 <div class="p-4 md:text-center md:w-[70%] md:h-[10rem]">
                      <h3 class="text-[#0A2A45]  font-belleza text-[17px] md:text-[14px] lg:text-xl font-semibold mb-2 lg:mt-[1rem] lg:mb-[1rem]">Canalización con guías y seres espirituales. 
                      </h3>
-                    <p class="text-[#0A2A45]  font-rosario text-[12px] lg:text-[14px]">Dominar la canalización con guías y seres espirituales. Identificar mensajes auténticos y expandir la conciencia hacia dimensiones superiores, reduciendo el ruido mental y conectando con la luz interior para ayudar a otros.</p>
+                    <p class="text-[#0A2A45] font-rosario text-[12px] lg:text-[14px]">Dominar la canalización con guías y seres espirituales. Identificar mensajes auténticos y expandir la conciencia hacia dimensiones superiores, reduciendo el ruido mental y conectando con la luz interior para ayudar a otros.</p>
                 </div>
             </div>
         </div>

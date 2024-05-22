@@ -4,7 +4,7 @@
     style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_about_back_desk.jpg');">
     <div class="container mx-auto pt-[3rem] pb-[3rem]">
         <h1 class='text-white  font-bold  font-belleza  text-[30px] md:text-[60px] text-center'>
-            About Consthera
+            Acerca de Consthera
         </h1>
         <img class='w-[10rem] h-auto mx-auto pt-[2rem]'
             src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg" />
