@@ -53,7 +53,7 @@
 <div id="slide-menu" class="slide-menu ">
     <ul class='mt-[3rem] mb-[1rem] font-custom text-[16px]'>
         <li class='border-[#BD9062] border-b-2'><a href='<?php echo esc_url( home_url( '/about-consthera/' ) ); ?>'
-                class='font-rosario font-bold '>About</a></li>
+                class='font-rosario font-bold '>Acerca de</a></li>
         <li class='border-[#BD9062] border-b-2'><a href='<?php echo esc_url( home_url( '/nuestros-servicios/' ) ); ?>'
                 class='font-rosario font-bold '>Servicios</a></li>
         <li class='border-[#BD9062] border-b-2'><a href="<?php echo get_site_url(); ?>/#testimonios"

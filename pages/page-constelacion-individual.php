@@ -135,7 +135,7 @@ Template Name: idividual
                                     CONSTELACIÓN FAMILIAR INDIVIDUAL
                                 </h2>
                                 <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[1.5rem]">
-                                    Te ayudamos a liberar bloqueos del pasado para encontrar paz en el presente. Sanamosrelaciones,
+                                    Te ayudamos a liberar bloqueos del pasado para encontrar paz en el presente. Sanamos relaciones,
                                     síntomas y patrones de comportamiento.
                                 </p>
                                 <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[2rem]">$600 MXN - 45 a 60 minutos | Terapeuta Alma Solís</p>

@@ -65,7 +65,7 @@ Template Name: akashica
         <section id='home'>
             <div class='py-[4rem] px-4 md:w-[50%] mx-auto'>
                 <div class='mb-[2.5rem] flex flex-col gap-[3rem]'>
-                    <p class='text-justify font-rosario'>Este servicio te permite trascender lo tangible y conectarte con las programaciones que afectan tu presente y entorno, tanto en esta vida como en vidas pasadas. A través de esta técnica energética, podrás sanar memorias del alma que bloquean tu crecimiento..</p>
+                    <p class='text-justify font-rosario'>Este servicio te permite trascender lo tangible y conectarte con las programaciones que afectan tu presente y entorno, tanto en esta vida como en vidas pasadas. A través de esta técnica energética, podrás sanar memorias del alma que bloquean tu crecimiento.</p>
                     <p class='font-rosario text-justify'>
                     Es un proceso complejo que te lleva a explorar tu pasado más allá de esta realidad. Conectaremos con tus vidas pasadas, exploramos tus memorias y resolvemos temas pendientes que aún resuenan en tu vida actual.
                     </p>
