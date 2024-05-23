@@ -51,7 +51,7 @@ Template Name: avisos
 <body>
     <?php include 'header-custom.php'; ?>
     <main id="avisos">
-        <section class=' hidden md:block bg-cover bg-no-repeat bg-center'
+        <section class='  bg-cover bg-no-repeat bg-center'
             style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/tyc_cover_back_desk.jpg');"'>
             <div class=' pb-[6rem] pt-[8rem] container mx-auto'>
             <h1 class='text-center pb-[2rem] font-belleza text-[30px] md:text-[60px] text-white'>AVISO DE PRIVACIDAD

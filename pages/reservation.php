@@ -13,7 +13,7 @@
                 <h2 class="text-[#EBDBCE] font-belleza text-[28px] md:text-[35px] font-semibold mb-[1.5rem]">
                     ¡Reserva ahora una de nuestras 9 sesiones de Terapia estés donde estés!</h2>
                 <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[1.5rem]">
-                    Resguarda tu lugar para una experiencia transformadora, ya sea que busques una Terapia
+                    Aparta tu lugar para una experiencia transformadora, ya sea que busques una Terapia
                     online o física en Monterrey.</p>
                 <a href="https://wa.me/528141485521" target="_blank"
                     class='font-rosario bg-[#BD9062] py-3 px-5 no-underline rounded-full text-white text-[14px]'>RESERVA
