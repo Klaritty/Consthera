@@ -1,17 +1,17 @@
 <section id='inicio' class='bg-cover bg-no-repeat bg-center'>
-    <div class='pb-24 pt-24 container mx-auto'>
-        <img class='w-40 h-40 mb-12 mx-auto' alt='consthera' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_star.svg" width="160" height="160"/>
-        <h1 class='text-center pb-8 font-belleza text-4xl md:text-6xl mx-auto w-4/5 md:w-7/10 text-white'>
+    <div class='pb-[6rem] pt-[6rem] container mx-auto'>
+        <img class='w-[10rem] h-[10rem] mb-[3rem] mx-auto' alt='consthera' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_star.svg"/>
+        <h1 class='text-center pb-[2rem] font-belleza text-[40px] mp:text-[60px] mx-auto w-[90%] mp:w-[70%] text-white'>
             Encuentra la sanación integral, el bienestar y la paz interior en Consthera.
         </h1>
-        <div class="w-56 mx-auto border-[#BD9062] border-t-2 mb-8"></div>
+        <div class="w-[10%] mx-auto border-[#BD9062] border-t-2 mb-[2rem]"></div>
         <div class='flex justify-center items-center'>
-            <p class='text-center mx-auto font-rosario text-lg md:text-xl w-4/5 md:w-3/5 text-white'>
+            <p class='text-center mx-auto font-rosario text-[23px] w-[80%] mp:w-[60%] text-white'>
                 Bienvenido a un espacio de tranquilidad y crecimiento, donde te ayudamos a sanar, comprenderte y sentirte en armonía contigo mismo.
             </p>
         </div>
-        <div class="buttons-services mt-12">
-            <a href="https://wa.me/528141485521" class='font-rosario bg-[#BD9062] no-underline py-2 px-5 rounded-full text-white text-sm'>RESERVA UNA SESIÓN</a>
+        <div class="buttons-services mt-[3rem]">
+            <a href="https://wa.me/528141485521" class='font-rosario bg-[#BD9062] no-underline py-2 px-5 rounded-full text-white text-[14px]'>RESERVA UNA SESIÓN</a>
         </div>
     </div>
 </section>
