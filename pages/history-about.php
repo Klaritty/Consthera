@@ -7,21 +7,12 @@
         <h1 class='text-center pb-[2rem] font-belleza text-[60px] text-[#0A2A45] '>HISTORIA</h1>
         <div class=" w-[10%] mx-auto border-[#BD9062] border-t-2 mb-[2rem]"></div>
         <div class='pb-[4rem] flex flex-col items-center'>
-            <p class='text-center font-rosario w-[60%] text-[#0A2A45] '><strong>Consthera</strong> surge de un viaje
-                personal de autodescubrimiento y transformación que abarca generaciones. Hace 4 años, en el último tramo
-                de su diplomado en Constelaciones Familiares nuestra fundadora Alma se dio cuenta de que su propósito
-                trascendía la psicología convencional. Aunque inicialmente la idea de estudiar psicología había sido
-                desaprobada por su padre, él la llevó a esta experiencia de Constelaciones Familiares que marcó un punto
-                de inflexión. No solo fue un despertar para ella, sino también para su legado ancestral y su comunidad.
+            <p class='text-center font-rosario w-[60%] text-[#0A2A45] '>Consthera surge de un viaje personal de autodescubrimiento y transformación que abarca generaciones. Hace 4 años, en el último tramo de su diplomado en Constelaciones Familiares nuestra fundadora, Alma, se dio cuenta de que su propósito trascendía la psicología convencional.
             </p>
             <br>
-            <p class='text-center font-rosario w-[60%] text-[#0A2A45] '>Durante años, había experimentado visiones y
-                mensajes de seres queridos fallecidos y entidades de otras dimensiones, sin comprender completamente su
-                significado o propósito. Gracias al estar en una comida con amigos y la repentina presencia de un
-                familiar fallecido de ellos, la llevaron a reconocer el valor de su don, potencial y propósito para
-                ayudar a otros. Al transmitir mensajes de sus fallecidos a sus amigos vivos, se dio cuenta del poder de
-                la comunicación entre los dos mundos. Esto la inspiró a explorar más a fondo su conexión con el mundo
-                espiritual y a desarrollar las terapias integrales que hoy ofrecemos en <strong>Consthera</strong>.</p>
+            <p class='text-center font-rosario w-[60%] text-[#0A2A45] '>Su padre desaprobó la idea de que ella estudiara psicología, esto fue el punto de inflexión y el inicio a la experiencia de Constelaciones Familiares. No solo fue un despertar para ella, sino también para su legado ancestral y comunidad.</p>
+            <p class='text-center font-rosario w-[60%] text-[#0A2A45] '>Alma había experimentado, durante años, visiones y mensajes de seres queridos fallecidos y entidades de otras dimensiones, sin comprender completamente su significado o propósito. </p>
+            <p class='text-center font-rosario w-[60%] text-[#0A2A45] '>En una reunión con amigos y la repentina presencia de un familiar fallecido de ellos, reconoció el valor de su don, potencial y propósito para ayudar a otros. Al transmitir mensajes de personas que murieron y trascendieron, se dio cuenta del poder de la comunicación entre los dos mundos. Esto la inspiró a explorar más a fondo su conexión con el mundo espiritual y a desarrollar las terapias integrales que hoy ofrecemos en Consthera. </p>
         </div>
 </section>
 <section class='bg-[#e8eaee] pb-[3rem] pt-[3rem]'>

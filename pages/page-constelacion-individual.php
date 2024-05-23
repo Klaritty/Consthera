@@ -139,7 +139,7 @@ Template Name: idividual
                                     síntomas y patrones de comportamiento.
                                 </p>
                                 <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[2rem]">$600 MXN - 45 a 60 minutos | Terapeuta Alma Solís</p>
-                                <a href='#'
+                                <a href="https://wa.me/528141485521"
                                    class='font-rosario bg-[#BD9062] py-3 px-5 no-underline rounded-full text-white text-[14px]' style="letter-spacing: 1px">RESERVA AHORA</a>
                             </div>
                         </div>
