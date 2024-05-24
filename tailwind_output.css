@@ -610,10 +610,6 @@ video {
   margin-bottom: auto;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -624,10 +620,6 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .mb-\[1\.5rem\] {
@@ -678,10 +670,6 @@ video {
   margin-right: 4rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
-}
-
 .mt-\[-10px\] {
   margin-top: -10px;
 }
@@ -726,7 +714,7 @@ video {
   height: 6rem;
 }
 
-.h-40 {
+.h-\[10rem\] {
   height: 10rem;
 }
 
@@ -742,24 +730,8 @@ video {
   height: auto;
 }
 
-.h-\[10rem\] {
-  height: 10rem;
-}
-
 .w-24 {
   width: 6rem;
-}
-
-.w-4\/5 {
-  width: 80%;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-56 {
-  width: 14rem;
 }
 
 .w-\[10\%\] {
@@ -806,20 +778,12 @@ video {
   width: 80%;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-\[90\%\] {
   width: 90%;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[10\] {
-  width: 10;
+.w-full {
+  width: 100%;
 }
 
 .max-w-screen-xl {
@@ -1095,14 +1059,6 @@ video {
   padding-bottom: 5rem;
 }
 
-.pb-24 {
-  padding-bottom: 6rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
 .pb-\[2rem\] {
   padding-bottom: 2rem;
 }
@@ -1117,10 +1073,6 @@ video {
 
 .pb-\[6rem\] {
   padding-bottom: 6rem;
-}
-
-.pt-24 {
-  padding-top: 6rem;
 }
 
 .pt-4 {
@@ -1147,16 +1099,16 @@ video {
   padding-top: 3rem;
 }
 
+.pt-\[6rem\] {
+  padding-top: 6rem;
+}
+
 .pt-\[8rem\] {
   padding-top: 8rem;
 }
 
 .pt-\[9\.6rem\] {
   padding-top: 9.6rem;
-}
-
-.pt-\[6rem\] {
-  padding-top: 6rem;
 }
 
 .text-center {
@@ -1173,11 +1125,6 @@ video {
 
 .font-rosario {
   font-family: Rosario, sans-serif;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-\[12px\] {
@@ -1420,10 +1367,6 @@ video {
     width: 50%;
   }
 
-  .md\:w-3\/5 {
-    width: 60%;
-  }
-
   .md\:w-\[10\%\] {
     width: 10%;
   }
@@ -1531,25 +1474,12 @@ video {
     padding-top: 4rem;
   }
 
-  .md\:pt-\[8rem\] {
-    padding-top: 8rem;
-  }
-
-  .md\:pt-\[10rem\] {
-    padding-top: 10rem;
-  }
-
   .md\:text-left {
     text-align: left;
   }
 
   .md\:text-center {
     text-align: center;
-  }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 
   .md\:text-\[14px\] {
@@ -1574,11 +1504,6 @@ video {
 
   .md\:text-\[60px\] {
     font-size: 60px;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
 

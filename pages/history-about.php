@@ -44,44 +44,31 @@
     <h2 class='text-center pb-[2rem] font-belleza text-[40px] text-[#0A2A45] '>FORMACIÓN</h2>
 
     <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2"></div>
-    <div class="lg:card flex flex-row justify-center md:flex-col items-center md:py-0 lg:py-0">
-        <div class='md:flex md:flex-col md:items-center'>
-            <div class="p-4 text-center md:w-[80%] md:h-[10rem]">
-                <h2 class="text-[#BD9062]  font-belleza  text-[30px]  mb-2 lg:mt-[1rem] lg:mb-[1rem]">
-                    Licenciatura en Psicología
-                </h2>
-                <h3 class="text-[#0A2A45]  font-rosario text-[20px] ">UNIVERSIDAD DE NUEVA EXTREMADURA - UVNE.(2022)
-                </h3>
-            </div>
-        </div>
-    </div>
-    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2"></div>
-
-    <div class="lg:card flex flex-row justify-center md:flex-col items-center md:py-0 lg:py-0">
+    <!-- <div class="lg:card flex flex-row justify-center md:flex-col items-center md:py-0 lg:py-0">
         <div class='md:flex md:flex-col md:items-center'>
             <div class="p-4 text-center md:w-[80%] md:h-[10rem]">
                 <h2 class="text-[#BD9062]  font-belleza  text-[30px]  mb-2 lg:mt-[1rem] lg:mb-[1rem]">
                     Posgrado en Psicología Clínica y de la salud
                 </h2>
-                <h3 class="text-[#0A2A45]  font-rosario text-[20px] ">INSTITUTO SUPERIOR DE ESTUDIOS PROFESIONALES
+                <h3 class="text-[#0A2A45]  font-rosario text-[20px] ">Instituto Superior de Estudios Profesionales
                     -ISEP.(2022) </h3>
             </div>
         </div>
     </div>
-    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[2rem]"></div>
+    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[2rem]"></div> -->
 
-    <div class="lg:card flex flex-row justify-center md:flex-col items-center md:py-0 lg:py-0">
+    <!-- <div class="lg:card flex flex-row justify-center md:flex-col items-center md:py-0 lg:py-0">
         <div class='md:flex md:flex-col md:items-center'>
             <div class="p-4 text-center md:w-[80%] md:h-[10rem]">
                 <h2 class="text-[#BD9062]  font-belleza  text-[30px]  mb-2 lg:mt-[1rem] lg:mb-[1rem]">
                     Posgrado Cognitivo Conductual entrado al Adulto
                 </h2>
-                <h3 class="text-[#0A2A45]  font-rosario text-[20px] ">UNIVERSIDAD DE NUEVA EXTREMADURA -ISEP.(2022)
+                <h3 class="text-[#0A2A45]  font-rosario text-[20px] ">Universidad de Nueva Extremadura -ISEP.(2022)
                 </h3>
             </div>
         </div>
     </div>
-    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[2rem]"></div>
+    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[2rem]"></div> -->
 
     <div class="lg:card flex flex-row justify-center md:flex-col items-center md:py-0 lg:py-0">
         <div class='md:flex md:flex-col md:items-center'>
@@ -89,8 +76,8 @@
                 <h2 class="text-[#BD9062]  font-belleza  text-[30px]  mb-2 lg:mt-[1rem] lg:mb-[1rem]">
                     Especialidad en Constelaciones Familiares
                 </h2>
-                <h3 class="text-[#0A2A45]  font-rosario text-[20px] ">INSTITUTO DE CONSTELACIONES FAMILIARES DE
-                    MONTERREY (2021)</h3><br>
+                <h3 class="text-[#0A2A45]  font-rosario text-[20px] ">Instituto de Constelaciones Familiares de
+                    Monterrey (2021)</h3><br>
                 <p class="text-[#0A2A45] w-[70%] mx-auto font-rosario text-[16px] ">Abarcar sesiones grupales,
                     individuales y de pareja. Identificar dinámicas familiares que obstaculizan relaciones
                     presentes, desentrañar patrones disfuncionales y guiar hacia soluciones al acceder al
@@ -98,15 +85,14 @@
             </div>
         </div>
     </div>
-    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[2rem]"></div>
-
+    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[4rem]"></div>
     <div class="lg:card flex flex-row justify-center md:flex-col items-center md:py-0 lg:py-0">
         <div class='md:flex md:flex-col md:items-center'>
             <div class="p-4 text-center md:w-[80%] md:h-[10rem]">
                 <h2 class="text-[#BD9062]  font-belleza  text-[30px]  mb-2 lg:mt-[1rem] lg:mb-[1rem]">
                     Canalización con Guías y seres Espirituales
                 </h2>
-                <h3 class="text-[#0A2A45]  font-rosario text-[20px] ">ESCUELA SOL AHIMSA (2024)</h3><br>
+                <h3 class="text-[#0A2A45]  font-rosario text-[20px] ">Escuela Sol Ahimsa (2024)</h3><br>
                 <p class="text-[#0A2A45] w-[70%] mx-auto font-rosario text-[16px] ">Dominar la canalización con
                     guías y seres espirituales. Identificar mensajes auténticos y expandir la conciencia hacia
                     dimensiones superiores, reduciendo el ruido mental y conectando con la luz interior para
@@ -114,14 +100,14 @@
             </div>
         </div>
     </div>
-    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[2rem]"></div>
+    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[4rem]"></div>
     <div class="lg:card flex flex-row justify-center md:flex-col items-center md:py-0 lg:py-0 mb-[3rem]">
         <div class='md:flex md:flex-col md:items-center'>
             <div class="p-4 text-center md:w-[80%] md:h-[10rem]">
                 <h2 class="text-[#BD9062]  font-belleza  text-[30px]  mb-2 lg:mt-[1rem] lg:mb-[1rem]">
                     Limpieza Energética y Autodefensa Psíquica
                 </h2>
-                <h3 class="text-[#0A2A45]  font-rosario text-[20px] ">PADUKA CON LA ASTRÓLOGIA PAOLA MICHEL (2024)</h3><br>
+                <h3 class="text-[#0A2A45]  font-rosario text-[20px] "> Paduka con la Astrologia Paola Michel(2024)</h3><br>
                 <p class="text-[#0A2A45] w-[70%] mx-auto font-rosario text-[16px] ">Aprender técnicas de limpieza
                     energética
                     y autodefensa psíquica. Desde fortalecer el sistema energético hasta conectar con la luz
@@ -130,6 +116,4 @@
             </div>
         </div>
     </div>
-
-
 </section>
