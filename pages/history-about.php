@@ -114,7 +114,7 @@
             </div>
         </div>
     </div>
-    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[4rem]"></div>
+    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[5rem]"></div>
     <div class="lg:card flex flex-row justify-center md:flex-col items-center md:py-0 lg:py-0 mb-[3rem]">
         <div class='md:flex md:flex-col md:items-center'>
             <div class="p-4 text-center md:w-[80%] md:h-[10rem]">
