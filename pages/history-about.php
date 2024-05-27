@@ -104,7 +104,7 @@
                     Canalización con Guías y seres Espirituales
                 </h2>
                 <h3 class="text-[#0A2A45]  font-rosario text-[20px] ">Escuela Sol Ahimsa (2024)</h3><br>
-                <p class="text-[#0A2A45] w-[70%] mx-auto font-rosario text-[16px] ">Como canalizadora espiritual
+                <p class="text-[#0A2A45] w-[70%] mx-auto font-rosario text-[16px] mb-[1rem]">Como canalizadora espiritual
                     identificas mensajes auténticos para expandir la conciencia hacia dimensiones superiores que
                     disminuyen el ruido mental y conectan con la luz interior para ayudar a otros.
 
@@ -114,7 +114,7 @@
             </div>
         </div>
     </div>
-    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[5rem]"></div>
+    <div class=" w-[45%] mx-auto border-[#BD9062] border-t-2 mt-[4rem]"></div>
     <div class="lg:card flex flex-row justify-center md:flex-col items-center md:py-0 lg:py-0 mb-[3rem]">
         <div class='md:flex md:flex-col md:items-center'>
             <div class="p-4 text-center md:w-[80%] md:h-[10rem]">
