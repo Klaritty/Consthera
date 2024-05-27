@@ -121,7 +121,7 @@
                 <h2 class="text-[#BD9062]  font-belleza  text-[30px]  mb-2 lg:mt-[1rem] lg:mb-[1rem]">
                     Limpieza Energética y Autodefensa Psíquica
                 </h2>
-                <h3 class="text-[#0A2A45]  font-rosario text-[20px] "> Paduka con la Astrologia Paola Michel(2024)</h3>
+                <h3 class="text-[#0A2A45]  font-rosario text-[20px] "> Paduka con la Astrologia Paola Michel (2024)</h3>
                 <br>
                 <p class="text-[#0A2A45] w-[70%] mx-auto font-rosario text-[16px] ">Esta formación permite fortalecer el sistema energético y conectar con la luz interior. Explora técnicas de visualización guiada y generación de energía renovada para equilibrar el campo áurico, junto con técnicas de limpieza energética y autodefensa psíquica.</p>
             </div>
