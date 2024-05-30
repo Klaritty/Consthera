@@ -58,7 +58,7 @@
                 class='font-rosario font-bold '>Servicios</a></li>
         <li class='border-[#BD9062] border-b-2'><a href="<?php echo get_site_url(); ?>/#testimonios"
                 class='mr-[1rem] mb-4 font-rosario font-bold'>Testimonio</a></li>
-        <li class='border-[#BD9062] border-b-2'><a href="<?php echo get_site_url(); ?>/#klaritty"
+        <li class='border-[#BD9062] border-b-2'><a href="<?php echo get_site_url(); ?>/#contacto"
                 class='font-rosario font-bold'>Contáctanos</a></li>
     </ul>
     <div class="social">
