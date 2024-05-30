@@ -48,8 +48,8 @@
                     ),
                 );
 
-                $pleca = 'http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png';
-                $plecaCierre = 'http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png';
+                $pleca = 'https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png';
+                $plecaCierre = 'https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png';
 
                 foreach ($slides as $slide) {
                     echo '<div class="swiper-slide">';
