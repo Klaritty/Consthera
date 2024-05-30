@@ -98,23 +98,23 @@ Template Name: energetica-transporte
                 <h1 class='mb-[2rem] text-[#0A2A45] font-belleza text-[30px] md:text-[60px] text-center'>REVIEWS</h1>
                 <div class="mb-[2rem]">
                     <div class="flex flex-col gap-[0.4rem]">
-                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
+                        <img src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                         <p class="font-rosario  italic font text-center px-[3rem]">
                         "Mi esposo llevó a sanar el carro contigo, tenías razón que la falla de frenos era por que yo misma no tengo límites conmigo ni con los demás, mil gracias!"
                         </p>
                         <img class="transform rotate-180" alt='pleca'
-                            src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                            src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png">
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Martha</p>
                 </div>
                 <div>
                     <div class="flex flex-col gap-[1rem]">
-                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'> 
+                        <img src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'> 
                         <p class="font-rosario  italic font text-center px-[3rem]">
                         "El carro ya prende, al igual que yo, ya vi que era mi energía la que le estaba afectando a él"
                         </p>
                         <img class="transform rotate-180" alt='pleca'
-                            src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                            src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png">
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Ricardo</p>
                 </div>

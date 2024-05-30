@@ -97,23 +97,23 @@ Template Name: fallecidos
                 <h1 class='mb-[2rem] text-[#0A2A45] font-belleza text-[30px] md:text-[60px] text-center'>REVIEWS</h1>
                 <div class="mb-[2rem]">
                     <div class="flex flex-col gap-[0.4rem]">
-                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
+                        <img src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                         <p class="font-rosario  italic font text-center px-[3rem]">
                         "Ahora veo que mi hermano no había descansado a pesar que ya había fallecido, gracias por ayudarnos"  
                         </p>
                         <img class="transform rotate-180" alt='pleca'
-                            src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                            src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png">
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Dante</p>
                 </div>
                 <div>
                     <div class="flex flex-col gap-[1rem]">
-                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
+                        <img src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                         <p class="font-rosario  italic font text-center px-[3rem]">
                         "Que bonito que mi esposo haya podido encontrarte y transmitir estos mensajes en mi cumpleaños" 
                         </p>
                         <img class="transform rotate-180" alt='pleca'
-                            src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                            src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png">
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Citlali</p>
                 </div>

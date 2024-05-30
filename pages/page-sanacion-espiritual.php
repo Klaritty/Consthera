@@ -103,23 +103,23 @@ Template Name: espiritual
                 <h1 class='mb-[2rem] text-[#0A2A45] font-belleza text-[30px] md:text-[60px] text-center'>REVIEWS</h1>
                 <div class="mb-[2rem]">
                     <div class="flex flex-col gap-[0.4rem]">
-                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
+                        <img src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                         <p class="font-rosario  italic font text-center px-[3rem]">
                         "Muchas gracias por ayudarme a conectar con mi guía y transmitirme lo que él quería que supiera en este momento de mi vida" 
                         </p>
                         <img class="transform rotate-180" alt='pleca'
-                            src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                            src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png">
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Gloria </p>
                 </div>
                 <div>
                     <div class="flex flex-col gap-[1rem]">
-                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
+                        <img src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                         <p class="font-rosario  italic font text-center px-[3rem]">
                         "Que bello que tú hayas podido ver a mi guía, ahora yo también puedo sentir su presencia y comunicarme con ella" 
                         </p>
                         <img class="transform rotate-180" alt='pleca'
-                            src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                            src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png">
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Teresa</p>
                 </div>

@@ -100,22 +100,22 @@ Template Name: idividual
                 <h1 class='mb-[2rem] text-[#0A2A45] font-belleza text-[30px] md:text-[60px] text-center'>REVIEWS</h1>
                 <div class="mb-[2rem]">
                     <div class="flex flex-col gap-[0.4rem]">
-                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
+                        <img src="https://consthera.com.mx//wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                         <p class="font-rosario  italic font text-center px-[3rem]">
                         Trabajar en mis creencias está muy cañón, invertir en cambiar creencias es lo mejor,
                         gracias por estar acompañándome en este camino
                         </p>
-                        <img class="transform rotate-180" src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
+                        <img class="transform rotate-180" src="https://consthera.com.mx//wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Patricia</p>
                 </div>
                 <div>
                     <div class="flex flex-col gap-[1rem]">
-                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
+                        <img src="https://consthera.com.mx//wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                         <p class="font-rosario  italic font text-center px-[3rem]">
                             Me he sentido muy bien haciendo esta terapia.
                         </p>
-                        <img class="transform rotate-180" src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
+                        <img class="transform rotate-180" src="https://consthera.com.mx//wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Patricia</p>
                 </div>

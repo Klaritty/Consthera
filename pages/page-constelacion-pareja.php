@@ -90,21 +90,21 @@ Template Name: pareja
                 <h1 class='mb-[2rem] text-[#0A2A45] font-belleza text-[30px] md:text-[60px] text-center'>REVIEWS</h1>
                 <div class="mb-[2rem]">
                     <div class="flex flex-col gap-[0.4rem]">
-                        <img src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
+                        <img src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                         <p class="font-rosario  italic font text-center px-[3rem]">
                         “Me encantó.”
                         </p>
-                        <img class="transform rotate-180" src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
+                        <img class="transform rotate-180" src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Estela</p>
                 </div>
                 <div>
                     <div class="flex flex-col gap-[1rem]">
-                        <img alt='pleca' src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                        <img alt='pleca' src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png">
                         <p class="font-rosario  italic font text-center px-[3rem]">
                         “Estoy feliz por tomar la sesión”
                         </p>
-                        <img class="transform rotate-180" alt='pleca' src="http://159.223.204.188/wp-content/uploads/2024/05/quote_pleca.png">
+                        <img class="transform rotate-180" alt='pleca' src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png">
                     </div>
                     <p class="text-center text-[13px] font-semibold mt-[-10px]">Gerardo</p>
                 </div>
