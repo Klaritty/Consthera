@@ -87,7 +87,7 @@ Template Name: pareja
 
         <section class='items-center bg-[#e8eaee]'>
             <div class="py-[3rem] px-4 md:w-[50%] mx-auto">
-                <h1 class='mb-[2rem] text-[#0A2A45] font-belleza text-[30px] md:text-[60px] text-center'>REVIEWS</h1>
+                <h1 class='mb-[2rem] text-[#0A2A45] font-belleza text-[30px] md:text-[60px] text-center'>TESTIMONIOS</h1>
                 <div class="mb-[2rem]">
                     <div class="flex flex-col gap-[0.4rem]">
                         <img src="https://consthera.com.mx/wp-content/uploads/2024/05/quote_pleca.png" alt='pleca'>
