@@ -60,8 +60,10 @@ Template Name: Home
         <!--Testimonios-->
         <?php include 'testimonials.php'?>
         <!--Reservation-->
-        <?php include 'reservation.php'?>
-        <!-- Formulario de reserva -->
+        <!-- <?php include 'reservation.php'?> -->
+        <div class="" id="calendar-container" style="">
+            <?php echo do_shortcode('[custom_calendar]'); ?>
+        </div>
         <!--contacto-->
         <?php include 'contacto.php'?>
         <!--Footer-->
@@ -69,8 +71,6 @@ Template Name: Home
         <!--button to up -->
         <?php include 'scroll-to-up.php'?>
         <?php wp_footer(); ?>
-
-
 
 </body>
 
