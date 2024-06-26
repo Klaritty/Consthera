@@ -75,20 +75,3 @@
     </div>
 </div>
 
-<script>
-jQuery(document).ready(function($) {
-    $('.dropdown-toggle').on('click', function(e) {
-        e.preventDefault();
-        $('.dropdown-menu').toggleClass('hidden');
-    });
-
-    $('.dropdown-menu a').on('click', function(e) {
-        e.preventDefault();
-        var option = $(this).text();
-        $('.dropdown-toggle').text(option);
-        $('#calendar-container').show();
-        $('#image-container').hide();
-        $('.dropdown-menu').addClass('hidden');
-    });
-});
-</script>
