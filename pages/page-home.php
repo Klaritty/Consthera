@@ -60,9 +60,10 @@ Template Name: Home
         <!--Testimonios-->
         <?php include 'testimonials.php'?>
         <!--Reservation-->
-        <div class="" id="calendar-container" style="">
-            <?php echo do_shortcode('[custom_calendar]'); ?>
-        </div>
+      
+        <?php include 'reservation.php'?>
+        <?php include 'reservation2.php'?>
+        
         <!--contacto-->
         <?php include 'contacto.php'?>
         <!--Footer-->
