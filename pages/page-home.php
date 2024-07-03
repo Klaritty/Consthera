@@ -44,7 +44,8 @@ Template Name: Home
         href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/node_modules/swiper/swiper-bundle.min.css">
 
     <title>Consthera</title>
-
+    <link rel="icon" href="<?php echo get_site_url(); ?>/wp-content/themes/Consthera/assets/images/favicon.ico" type="image/x-icon" />
+    
     <?php wp_head(); ?>
 </head>
 
