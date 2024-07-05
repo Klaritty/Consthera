@@ -60,19 +60,14 @@ Template Name: Home
         <?php include 'about.php'; ?>
         <!--Testimonios-->
         <?php include 'testimonials.php'?>
-        <!--Reservation-->
-       
+        <!--Reservation--> 
+        <?php include 'reservation2.php'?>
         <!--contacto-->
-        <?php include 'contactos.php'?>
-        <!--Footer-->
+        <?php include 'contacto.php'?>
         <?php include 'footer.php'?>
         <!--button to up -->
         <?php include 'scroll-to-up.php'?>
         <?php wp_footer(); ?>
-<<<<<<< HEAD
-
-=======
->>>>>>> 5c4ccc7bc07a984bea25753082f0341ecf361170
 </body>
 
 </html>
