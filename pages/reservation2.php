@@ -1,5 +1,31 @@
 <?php
-$products = get_woocommerce_products();
+// Obtener todos los productos de WooCommerce
+$args = array(
+    'post_type' => 'product',
+    'posts_per_page' => -1,
+);
+
+$products_query = new WP_Query($args);
+
+// Inicializar un array para almacenar los productos
+$products = array();
+
+// Verificar si hay productos y procesar cada uno
+if ($products_query->have_posts()) {
+    while ($products_query->have_posts()) {
+        $products_query->the_post();
+        $product_id = get_the_ID();
+        $product = wc_get_product($product_id);
+        $products[$product_id] = array(
+            'name' => $product->get_name(),
+            'price' => $product->get_price(),
+            // Puedes agregar más datos del producto según sea necesario
+        );
+    }
+}
+
+// Restaurar las variables globales de WordPress
+wp_reset_postdata();
 ?>
 
 <div id='reserva' class='bg-cover bg-no-repeat bg-center pt-[3rem]'
@@ -21,9 +47,9 @@ $products = get_woocommerce_products();
                         <div class="relative md:inline-block">
                             <select id="session-select"
                                 class="font-rosario w-[70%] md:w-full bg-[#BD9062] py-2 pl-[1.75rem] pr-[1.75rem] no-underline rounded-[10px] text-white text-[14px]">
-                                <option   value="" selected disabled>SELECCIONE UNA SESIÓN</option>
+                                <option value="" selected disabled>SELECCIONE UNA SESIÓN</option>
                                 <?php foreach ($products as $product_id => $product_data) : ?>
-                                    <option  value="<?php echo esc_attr($product_data['name']); ?>"><?php echo esc_html($product_data['name']); ?></option>
+                                    <option value="<?php echo esc_attr($product_data['name']); ?>"><?php echo esc_html($product_data['name']); ?></option>
                                 <?php endforeach; ?>
                             </select>
                         </div>
@@ -41,12 +67,10 @@ $products = get_woocommerce_products();
                     <div class="md:w-1/2 min-h-screen pb-[3rem]" id="calendar-container-<?php echo esc_attr($product_id); ?>"
                         style="display: none;">
                         <!-- Widget de Zcal para constelación familiar individual -->
-                         <div class=''>
-                             <?php if ($product_data['name'] === 'Constelación familiar individual') : ?>
-                                <script type="text/javascript" async src="https://static.zcal.co/embed/v1/embed.js"></script>
-                                <div class="zcal-inline-widget" ><a href="https://zcal.co/i/tBsXWeay">Constelación familiar individual - Schedule a meeting</a></div>
-                                <?php endif; ?>
-                        </div>
+                        <?php if ($product_data['name'] === 'Constelación familiar individual') : ?>
+                            <script type="text/javascript" async src="https://static.zcal.co/embed/v1/embed.js"></script>
+                            <div class="zcal-inline-widget"><a href="https://zcal.co/i/tBsXWeay">Constelación familiar individual - Schedule a meeting</a></div>
+                        <?php endif; ?>
                         
                         <!-- Widget de Zcal para constelación familiar en pareja -->
                         <?php if ($product_data['name'] === 'Constelación familiar en pareja') : ?>
