@@ -61,7 +61,7 @@ Template Name: Home
         <!--Testimonios-->
         <?php include 'testimonials.php'?>
         <!--Reservation-->
-        <?php include 'reservation.php'?>
+        <!-- <?php include 'reservation.php'?> -->
         <!-- Formulario de reserva -->
         <!--contacto-->
         <?php include 'contacto.php'?>
