@@ -69,7 +69,10 @@ Template Name: Home
         <!--button to up -->
         <?php include 'scroll-to-up.php'?>
         <?php wp_footer(); ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c4ccc7bc07a984bea25753082f0341ecf361170
 </body>
 
 </html>
