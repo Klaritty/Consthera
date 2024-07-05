@@ -1,5 +1,8 @@
 <?php
+// Obtener productos de WooCommerce
+$products = get_woocommerce_products();
 ?>
+
 <div class='bg-cover bg-no-repeat bg-center pt-[3rem]'
     style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_back_desk.jpg');">
     <div class='container mx-auto'>
@@ -20,19 +23,14 @@
                             <select id="session-select"
                                 class="font-rosario bg-[#BD9062] py-2 pl-[1.75rem] pr-[1.75rem] no-underline rounded-[10px] text-white text-[14px]">
                                 <option value="" selected disabled>SELECCIONE UNA SESIÓN</option>
-                                <option value="individual">Constelación familiar individual</option>
-                                <option value="pareja">Constelación familiar en pareja</option>
-                                <option value="guias">Sanación con guías</option>
-                                <option value="akashica">Sanación Akáshica</option>
-                                <option value="maestros">Sanación con maestros</option>
-                                <option value="fallecidos">Sanación de fallecidos y contacto con ellos</option>
-                                <option value="casa_negocio">Limpieza energética de casa o negocio</option>
-                                <option value="autos">Limpieza energética de autos / transportes</option>
+                                <?php foreach ($products as $product_id => $product_data) : ?>
+                                    <option value="<?php echo esc_attr($product_data['name']); ?>"><?php echo esc_html($product_data['name']); ?></option>
+                                <?php endforeach; ?>
                             </select>
                         </div>
                     </div>
                 </div>
-                <div class="w-full md:w-[50%] mb-[3rem] reserva-img hidden" id="image-container">
+                <div class="w-full md:w-[50%] mb-[3rem] reserva-img" id="image-container">
                     <div class='mt-[2rem] md:mt-0 flex items-center justify-center'>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg"
                             alt="reserva" class='object-cover w-[65%] md:w-[24%] absolute ' />
@@ -40,24 +38,71 @@
                             alt="reserva" class='w-[60%] h-auto rounded-full relative ' />
                     </div>
                 </div>
-                <div style="width:170%;height:70%;overflow:scroll" id="my-cal-inline"></div>
+                <?php foreach ($products as $product_id => $product_data) : ?>
+                    <div class="md:w-1/2 min-h-screen pb-[3rem]" id="calendar-container-<?php echo esc_attr($product_id); ?>"
+                        style="display: none;">
+                        <!-- Widget de Zcal para constelación familiar individual -->
+                         <div class=''>
+                             <?php if ($product_data['name'] === 'Constelación familiar individual') : ?>
+                                <script type="text/javascript" async src="https://static.zcal.co/embed/v1/embed.js"></script>
+                                <div class="zcal-inline-widget" ><a href="https://zcal.co/i/tBsXWeay">Constelación familiar individual - Schedule a meeting</a></div>
+                                <?php endif; ?>
+                        </div>
+                        
+                        <!-- Widget de Zcal para constelación familiar en pareja -->
+                        <?php if ($product_data['name'] === 'Constelación familiar en pareja') : ?>
+                            <script type="text/javascript" async src="https://static.zcal.co/embed/v1/embed.js"></script>
+                            <div class="zcal-inline-widget"><a href="https://zcal.co/i/FwS5rpw7">Constelación familiar en pareja - Schedule a meeting</a></div>
+                        <?php endif; ?>
+        
+                        <!-- Información del producto seleccionado y botón para finalizar compra -->
+                        <div class="flex justify-between items-center p-4 bg-gray-200 rounded">
+                            <div>
+                                <h3 class="font-bold text-lg"><?php echo esc_html($product_data['name']); ?></h3>
+                                <p class="text-sm text-gray-600">Precio: <?php echo wc_price($product_data['price']); ?></p>
+                            </div>
+                            <button class="bg-[#BD9062] hover:bg-[#A77F4B] text-white font-bold py-2 px-4 rounded"
+                                onclick="redirectToCheckout(<?php echo $product_id; ?>)">
+                                Proceder al Pago
+                            </button>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Cal inline embed code begins -->
-<script type="text/javascript">
-  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-Cal("init",  {origin:"https://cal.com"});
+<script>
+document.getElementById('session-select').addEventListener('change', function() {
+    var selectedValue = this.value;
+    var imageContainer = document.querySelector('.reserva-img');
+    var products = <?php echo json_encode($products); ?>;
+    
+    // Ocultar todos los contenedores de calendarios y mostrar el contenedor de imagen por defecto
+    imageContainer.style.display = 'block';
+    <?php foreach ($products as $product_id => $product_data) : ?>
+        var calendarContainer<?php echo $product_id; ?> = document.getElementById('calendar-container-<?php echo $product_id; ?>');
+        calendarContainer<?php echo $product_id; ?>.style.display = 'none';
+    <?php endforeach; ?>
+    
+    // Mostrar el contenedor de calendario relevante según la opción seleccionada
+    <?php foreach ($products as $product_id => $product_data) : ?>
+        if (selectedValue === '<?php echo $product_data['name']; ?>') {
+            var calendarContainer<?php echo $product_id; ?> = document.getElementById('calendar-container-<?php echo $product_id; ?>');
+            calendarContainer<?php echo $product_id; ?>.style.display = 'block';
+            imageContainer.style.display = 'none';
+        }
+    <?php endforeach; ?>
+});
 
-  Cal("inline", {
-	elementOrSelector:"#my-cal-inline",
-	calLink: "lucasmartin-giorgi-fhhz5v/15min",
-	layout: "month_view"
-  });
-
-  Cal("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false,"layout":"month_view"});
+// Función para redirigir a la página de finalizar compra con el producto seleccionado
+function redirectToCheckout(productId) {
+    var product = <?php echo json_encode($products); ?>;
+    var productData = product[productId];
+    var productName = productData.name;
+    
+    // Redireccionar a la página de finalizar compra de WooCommerce con el producto seleccionado
+    window.location.href = '<?php echo wc_get_checkout_url(); ?>?add-to-cart=' + productId;
+}
 </script>
-<!-- Cal inline embed code ends -->
-
