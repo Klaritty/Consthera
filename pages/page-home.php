@@ -70,9 +70,6 @@ Template Name: Home
         <!--button to up -->
         <?php include 'scroll-to-up.php'?>
         <?php wp_footer(); ?>
-
-
-
 </body>
 
 </html>
