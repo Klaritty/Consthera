@@ -1,45 +1,72 @@
 <?php
 ?>
 
-<section id='contacto' class="bg-[#E8E0DC]">
-  <h1>PRUEVA</h1>
-  <div class="px-5 py-[3rem] lg:max-w-[900px] lg:mx-auto">
-    <div class="mb-[2rem]">
-      <h1 class="text-center mb-[2rem] font-belleza text-[#0A2A45] text-[30px] font-normal md:text-[60px]">CONTÁCTANOS</h1>
-      <img class='w-[10rem] h-auto mx-auto' alt='pleca' src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg"/>
-    </div>
-    <div class="flex flex-col md:flex-row gap-[1rem] lg:gap-[3rem] md:h-[500px]">
-      <div class="md:pt-[4rem] px-[2rem] flex flex-col mb-[2rem] md:w-1/2 bg-cover bg-no-repeat bg-center md:bg-[url('http://159.223.204.188/wp-content/themes/Consthera/assets/images/contact_frame.png')]">
-        <div class="mb-[2rem]">
-          <h3 class="text-center font-bold font-rosario text-[#0A2A45] md:text-[20px] ">¡TU BIENESTAR <br>COMIENZA AQUÍ! </h3>
-          <p class="text-center px-[3rem] font-normal font-rosario text-[#0A2A45] md:text-[15px]">¡Conéctate al camino ahora!
-Completa el formulario o escribe un mensaje de WhatsApp
-.</p>
+<div id='reserva' class='bg-cover bg-no-repeat bg-center pt-[3rem]'
+    style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_back_desk.jpg');">
+    <div class='container mx-auto'>
+        <h1 class='text-[#EBDBCE] font-semibold font-belleza text-[30px] md:text-[60px] text-center mb-[1.5rem]'>RESERVA
+            UNA SESIÓN</h1>
+        <img class='w-[10rem] h-auto mx-auto pt-[1rem]' alt='pleca'
+            src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/consthera_pleca.svg" />
+        <div class="mx-auto">
+            <div class="flex flex-col md:flex-row justify-center items-center md:py-0 lg:py-0">
+                <div class="w-full md:w-1/2">
+                    <div class="p-[3rem] text-center md:text-left">
+                        <h2 class="text-[#EBDBCE] font-belleza text-[28px] md:text-[35px] font-semibold mb-[1.5rem]">
+                            ¡Reserva ahora una de nuestras 9 sesiones de Terapia estés donde estés!</h2>
+                        <p class="text-[#EBDBCE] font-belleza text-[12px] lg:text-[20px] mb-[1.5rem]">
+                            Aparta tu lugar para una experiencia transformadora, ya sea que busques una Terapia
+                            online o física en Monterrey.</p>
+                        <div class="relative md:inline-block">
+                            <select id="session-select"
+                                class="font-rosario w-[70%] md:w-full bg-[#BD9062] py-2 pl-[1.75rem] pr-[1.75rem] no-underline rounded-[10px] text-white text-[14px]">
+                                <option   value="" selected disabled>SELECCIONE UNA SESIÓN</option>
+                                <?php foreach ($products as $product_id => $product_data) : ?>
+                                    <option  value="<?php echo esc_attr($product_data['name']); ?>"><?php echo esc_html($product_data['name']); ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-[50%] mb-[3rem] reserva-img" id="image-container">
+                    <div class='mt-[2rem] md:mt-0 flex items-center justify-center'>
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/circle_frame.svg"
+                            alt="reserva" class='object-cover w-[65%] md:w-[24%] absolute ' />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home_reserva_img_desk.jpg"
+                            alt="reserva" class='w-[60%] h-auto rounded-full relative ' />
+                    </div>
+                </div>
+                <?php foreach ($products as $product_id => $product_data) : ?>
+                    <div class="md:w-1/2 min-h-screen pb-[3rem]" id="calendar-container-<?php echo esc_attr($product_id); ?>"
+                        style="display: none;">
+                        <!-- Widget de Zcal para constelación familiar individual -->
+                         <div class=''>
+                             <?php if ($product_data['name'] === 'Constelación familiar individual') : ?>
+                                <script type="text/javascript" async src="https://static.zcal.co/embed/v1/embed.js"></script>
+                                <div class="zcal-inline-widget" ><a href="https://zcal.co/i/tBsXWeay">Constelación familiar individual - Schedule a meeting</a></div>
+                                <?php endif; ?>
+                        </div>
+                        
+                        <!-- Widget de Zcal para constelación familiar en pareja -->
+                        <?php if ($product_data['name'] === 'Constelación familiar en pareja') : ?>
+                            <script type="text/javascript" async src="https://static.zcal.co/embed/v1/embed.js"></script>
+                            <div class="zcal-inline-widget"><a href="https://zcal.co/i/FwS5rpw7">Constelación familiar en pareja - Schedule a meeting</a></div>
+                        <?php endif; ?>
+        
+                        <!-- Información del producto seleccionado y botón para finalizar compra -->
+                        <div class="flex justify-between items-center p-4 bg-gray-200 rounded">
+                            <div>
+                                <h3 class="font-bold font-belleza text-[14px] md:text-[16px]"><?php echo esc_html($product_data['name']); ?></h3>
+                                <p class="text-[14px] font-belleza md:text-[16px] text-gray-600">Precio: <?php echo wc_price($product_data['price']); ?></p>
+                            </div>
+                            <button class="bg-[#BD9062] font-rosario hover:bg-[#A77F4B] text-white font-bold text-[14px] md:text-[16px] py-2 px-4 rounded"
+                                onclick="redirectToCheckout(<?php echo $product_id; ?>)">
+                                Proceder al Pago
+                            </button>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
         </div>
-        <div style="border-bottom: #BD9062 1px solid" class="mb-[2rem]"></div>
-          <ol class="flex flex-col gap-[1rem]">
-            <li class="flex gap-1 mb-[5px]">
-              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_mail.svg' class="w-[2rem] h-[2rem]" alt="Correo">
-              <a href="mailto:consthera4@gmail.com" target="_blank" class="my-auto font-normal font-rosario no-underline cursor-pointer" href="" target="_blank">consthera4@gmail.com</a>
-            </li>
-            <li class="flex gap-1 mb-[5px]">
-              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_ws.svg' class="w-[2rem] h-[2rem]" alt="Teléfono">
-              <a href="https://wa.me/528141485521" target="_blank"  class="my-auto font-normal font-rosario no-underline cursor-pointer" href="" target="_blank">(+52) 8141485521</a>
-            </li>
-            <li class="flex gap-1 mb-[5px]">
-              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_ig.svg' class="w-[2rem] h-[2rem]" alt="instagram">
-              <a href="https://www.instagram.com/consthera.psic/"  target="_blank" class="my-auto font-normal font-rosario no-underline cursor-pointer" href="" target="_blank">@consthera.psic</a>
-            </li>
-            <li class="flex gap-1 mb-[5px]">
-              <img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon_fb.svg' class="w-[2rem] h-[2rem]" alt="Facebook">
-              <a  href="https://www.facebook.com/profile.php?id=100063472513452" target="_blank" class="my-auto font-normal  font-rosario no-underline cursor-pointer" target="_blank"href="">@Consthera</a>
-            </li>
-          </ol>
-      </div>
-      <div class="md:hidden mb-[2rem]" style="border-bottom: 1px #BD9062 solid"></div>
-      <div class="md:w-1/2">
-        <?php echo do_shortcode('[ninja_form id=1]'); ?>
-      </div>
     </div>
-  </div>
-</section>
+</div>
