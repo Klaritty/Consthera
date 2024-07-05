@@ -10,7 +10,7 @@
             </p>
         </div>
         <div class="buttons-services mt-[3rem]">
-            <a href="https://wa.me/528141485521" class='font-rosario bg-[#BD9062] no-underline py-2 px-5 rounded-full text-white text-[14px]'>RESERVA UNA SESIÓN</a>
+            <a href='<?php echo get_site_url(); ?>/#reserva' class='font-rosario bg-[#BD9062] no-underline py-2 px-5 rounded-full text-white text-[14px]'>RESERVA UNA SESIÓN</a>
         </div>
     </div>
 </section>
@@ -25,7 +25,7 @@
             </p>
         </div>
         <div class="buttons-services mt-[3rem]">
-            <a href="https://wa.me/528141485521" class='font-rosario bg-[#BD9062] no-underline py-2 px-5 rounded-full text-white text-[14px]'>RESERVA UNA SESIÓN</a>
+            <a href='<?php echo get_site_url(); ?>/#reserva' class='font-rosario bg-[#BD9062] no-underline py-2 px-5 rounded-full text-white text-[14px]'>RESERVA UNA SESIÓN</a>
         </div>
     </div>
 </section>

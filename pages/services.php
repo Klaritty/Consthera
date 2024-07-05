@@ -33,7 +33,7 @@
                     <a href='<?php echo esc_url( home_url( '/constelacion-familiar-individual/' ) ); ?>'
                         class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px] '>VER
                         MÁS</a>
-                    <a href="https://wa.me/528141485521" target="_blank"
+                    <a href='<?php echo get_site_url(); ?>/#reserva'
                         class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5  no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     <a href='<?php echo esc_url( home_url( '/constelacion-familiar-en-pareja/' ) ); ?>'
                         class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px]'>VER
                         MÁS</a>
-                    <a href="https://wa.me/528141485521" target="_blank"
+                    <a href='<?php echo get_site_url(); ?>/#reserva'
                         class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     <a href='<?php echo esc_url( home_url( '/sanacion-con-guias/' ) ); ?>'
                         class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px]'>VER
                         MÁS</a>
-                    <a href="https://wa.me/528141485521" target="_blank"
+                    <a href='<?php echo get_site_url(); ?>/#reserva'
                         class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                     <a href='<?php echo esc_url( home_url( '/sanacion-akashica/' ) ); ?>'
                         class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px]'>VER
                         MÁS</a>
-                    <a href="https://wa.me/528141485521" target="_blank"
+                    <a href='<?php echo get_site_url(); ?>/#reserva'
                         class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>
@@ -147,7 +147,7 @@
                     <a href='<?php echo esc_url( home_url( '/sanacion-con-maestros/' ) ); ?>'
                         class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px]'>VER
                         MÁS</a>
-                    <a href="https://wa.me/528141485521" target="_blank"
+                    <a href='<?php echo get_site_url(); ?>/#reserva'
                         class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>
@@ -176,7 +176,7 @@
                     <a href='<?php echo esc_url( home_url( '/sanacion-de-fallecidos-y-contacto-con-ellos/' ) ); ?>'
                         class=' font-rosario bg-transparent border  border-gray-900 text-gray-900 py-2 px-4 md:py-3 md:px-5  no-underline rounded-full  text-[12px]'>VER
                         MÁS</a>
-                    <a href="https://wa.me/528141485521" target="_blank"
+                    <a href='<?php echo get_site_url(); ?>/#reserva'
                         class=' font-rosario bg-[#BD9062] py-2 px-4 md:py-3 md:px-5 no-underline rounded-full text-white text-[12px]'>RESERVA</a>
                 </div>
             </div>

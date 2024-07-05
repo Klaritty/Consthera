@@ -15,7 +15,7 @@
                         class='mr-[0.5rem] font-rosario font-bold'>Testimonios</a><span class='span'>|</span></li>
                 <li><a href='<?php echo get_site_url(); ?>/#contacto' class='font-rosario font-bold'>Contáctanos</a>
                 </li>
-                <li><a href="https://wa.me/528141485521" target="_blank" class='font-rosario font-bold'>Reserva</a></li>
+                <li><a href='<?php echo get_site_url(); ?>/#reserva' class='font-rosario font-bold'>Reserva</a></li>
             </ul>
             <div class="social-icons">
                 <div class='flex '>
@@ -92,7 +92,7 @@
     </div>
     <div class='border-[#BD9062] border-b-2'></div>
     <div class="buttons-services mt-[3rem]">
-        <a href="https://wa.me/528141485521" target="_blank"
+        <a href='<?php echo get_site_url(); ?>/#reserva' target="_blank"
             class='font-rosario bg-[#BD9062] no-underline py-3 px-5 rounded-full text-white text-[15px]'>RESERVA UNA
             SESIÓN</a>
     </div>
