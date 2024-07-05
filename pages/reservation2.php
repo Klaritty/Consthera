@@ -1,5 +1,4 @@
 <?php
-// Obtener productos de WooCommerce
 $products = get_woocommerce_products();
 ?>
 
