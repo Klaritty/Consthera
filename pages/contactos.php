@@ -1,4 +1,5 @@
 <?php
+$products = get_woocommerce_products();
 ?>
 
 <div id='reserva' class='bg-cover bg-no-repeat bg-center pt-[3rem]'
