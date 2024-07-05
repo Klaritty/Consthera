@@ -60,6 +60,7 @@ Template Name: Home
         <!--Testimonios-->
         <?php include 'testimonials.php'?>
         <!--Reservation-->
+        <?php include 'history-abouut.php'?>
         <!--contacto-->
         <?php include 'contacto.php'?>
         <!--Footer-->
